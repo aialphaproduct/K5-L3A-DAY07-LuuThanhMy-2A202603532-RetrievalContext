@@ -563,7 +563,7 @@ const RUBRIC=[
  ["Thử nghiệm và cải thiện","≥ 2 cấu hình cải thiện, giả thuyết, phân tích lỗi",5,"experiments","ok","imp1, imp2 (+ imp3 filter chưa kiểm chứng), 2 lỗi dev"],
  ["","Chọn trên dev, đánh giá test sau khi chốt",5,"experiments","ok","tiêu chí ghi trước, test chạy một lần"],
  ["","Đánh đổi chất lượng, thời gian, chi phí",3,"experiments","part","có token và thời gian; chưa quy USD"],
- ["Tái lập và báo cáo","Code, cách chạy, model, dữ liệu",5,"repro","part","có RUN.md, DEMO.md; chưa commit/push lên repo cá nhân"],
+ ["Tái lập và báo cáo","Code, cách chạy, model, dữ liệu",5,"repro","ok","có RUN.md, DEMO.md, mã nguồn agentrag/; đã push lên repo cá nhân (cần kiểm quyền xem của người chấm)"],
  ["","Kết luận, nguồn, giới hạn",3,"repro","ok","báo cáo có phần giới hạn và nguồn"]];
 const ST={ok:["ok","có bằng chứng"],part:["part","có, còn hạn chế"],bad:["bad","chưa"]};
 const LS="day7-selfscore";
@@ -581,7 +581,7 @@ function rubricPanel(){const saved=lsGet(),total=RUBRIC.reduce((a,r)=>a+r[2],0),
   return h("section",null,title("Đối chiếu rubric",85),h("p",{class:"lead"},"Mỗi dòng là một tiêu chí trong RUBRIC.md (phần cơ bản, tối đa 85 điểm). Bấm “xem →” để mở đúng mục đã chứng minh."),
     t,h("div",{class:"sum"},sum,h("span",null,ok+" dòng có bằng chứng · "+part+" dòng còn hạn chế · 0 dòng chưa làm")),
     note("info","Cột “Mức đáp ứng” là tự đánh giá mức bằng chứng, không phải điểm. Điểm thật do người chấm quyết định; ô “Tự chấm” lưu trong trình duyệt để anh so với điểm cuối cùng."),
-    h("h3",null,"Việc còn lại để chắc điểm"),ul(["Đọc lại và sửa nhãn trong results/audit/ (5 câu test có đáp án + 2 thiếu evidence); có thể tự hỏi thêm và chấm ở mục “Hỏi đáp test”.","Commit và push repo cá nhân; kiểm quyền xem của người chấm.","Tùy chọn: sửa cách ghép ngữ cảnh (xếp theo điểm) và chạy lại để xử lý q16.","Không làm thử thách nâng cao (+15 điểm)."]))}
+    h("h3",null,"Việc còn lại để chắc điểm"),ul(["Đọc lại và sửa nhãn trong results/audit/ (5 câu test có đáp án + 2 thiếu evidence); có thể tự hỏi thêm và chấm ở mục “Hỏi đáp test”.","Kiểm quyền xem repo của người chấm.","Tùy chọn: sửa cách ghép ngữ cảnh (xếp theo điểm) và chạy lại để xử lý q16.","Không làm thử thách nâng cao (+15 điểm)."]))}
 
 /* ---------- menu ---------- */
 const TABS=[["overview","Tổng quan","",overviewPanel],["data","1 · Dữ liệu","13 đ",dataPanel],["retrieval","2 · Retrieval","17 đ",retrievalPanel],["agent","3 · Agent & context","17 đ",agentPanel],
