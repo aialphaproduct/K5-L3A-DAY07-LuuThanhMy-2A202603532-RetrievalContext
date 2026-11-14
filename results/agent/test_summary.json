@@ -1,0 +1,263 @@
+{
+  "base": {
+    "split": "test",
+    "config": "base",
+    "n": 7,
+    "errors": 0,
+    "answerable": 5,
+    "unanswerable": 2,
+    "context_evidence": 0,
+    "answered_answerable": 0,
+    "abstain_answerable": 5,
+    "abstain_unanswerable": 2,
+    "answered_unanswerable": 0,
+    "tool_use": 7,
+    "no_error_runs": 7,
+    "searches_dist": {
+      "2": 7
+    },
+    "citation_total": 0,
+    "citation_in_context": 0,
+    "citation_with_evidence_chunk": 0,
+    "answers_with_citation": 0,
+    "answered": 0,
+    "input_tokens": 33363,
+    "output_tokens": 5801,
+    "llm_calls": 21,
+    "median_ms": 5318.2,
+    "per_query": [
+      {
+        "query_id": "q03",
+        "status": "abstain",
+        "context_evidence": false,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "q06",
+        "status": "abstain",
+        "context_evidence": false,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "q14",
+        "status": "abstain",
+        "context_evidence": false,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "q15",
+        "status": "abstain",
+        "context_evidence": false,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "q16",
+        "status": "abstain",
+        "context_evidence": false,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "u03",
+        "status": "abstain",
+        "context_evidence": null,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "u04",
+        "status": "abstain",
+        "context_evidence": null,
+        "n_search": 2,
+        "citations": []
+      }
+    ]
+  },
+  "imp3": {
+    "split": "test",
+    "config": "imp3",
+    "n": 7,
+    "errors": 0,
+    "answerable": 5,
+    "unanswerable": 2,
+    "context_evidence": 4,
+    "answered_answerable": 5,
+    "abstain_answerable": 0,
+    "abstain_unanswerable": 2,
+    "answered_unanswerable": 0,
+    "tool_use": 7,
+    "no_error_runs": 7,
+    "searches_dist": {
+      "2": 7
+    },
+    "citation_total": 7,
+    "citation_in_context": 7,
+    "citation_with_evidence_chunk": 4,
+    "answers_with_citation": 5,
+    "answered": 5,
+    "input_tokens": 56524,
+    "output_tokens": 6839,
+    "llm_calls": 21,
+    "median_ms": 5818.9,
+    "per_query": [
+      {
+        "query_id": "q03",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a008:001"
+        ]
+      },
+      {
+        "query_id": "q06",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a022:000",
+          "luat-91-2025:struct1000:a022:001",
+          "nd-13-2023:struct1000:a024:003"
+        ]
+      },
+      {
+        "query_id": "q14",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "nd-13-2023:struct1000:a020:000"
+        ]
+      },
+      {
+        "query_id": "q15",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a038:000"
+        ]
+      },
+      {
+        "query_id": "q16",
+        "status": "answered",
+        "context_evidence": false,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a038:000"
+        ]
+      },
+      {
+        "query_id": "u03",
+        "status": "abstain",
+        "context_evidence": null,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "u04",
+        "status": "abstain",
+        "context_evidence": null,
+        "n_search": 2,
+        "citations": []
+      }
+    ]
+  },
+  "imp4": {
+    "split": "test",
+    "config": "imp4",
+    "n": 7,
+    "errors": 0,
+    "answerable": 5,
+    "unanswerable": 2,
+    "context_evidence": 5,
+    "answered_answerable": 5,
+    "abstain_answerable": 0,
+    "abstain_unanswerable": 2,
+    "answered_unanswerable": 0,
+    "tool_use": 7,
+    "no_error_runs": 7,
+    "searches_dist": {
+      "2": 6,
+      "1": 1
+    },
+    "citation_total": 9,
+    "citation_in_context": 9,
+    "citation_with_evidence_chunk": 5,
+    "answers_with_citation": 5,
+    "answered": 5,
+    "input_tokens": 33249,
+    "output_tokens": 4661,
+    "llm_calls": 15,
+    "median_ms": 55336.0,
+    "per_query": [
+      {
+        "query_id": "q03",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a008:001"
+        ]
+      },
+      {
+        "query_id": "q06",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 1,
+        "citations": [
+          "luat-91-2025:struct1000:a022:000",
+          "luat-91-2025:struct1000:a022:001"
+        ]
+      },
+      {
+        "query_id": "q14",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "nd-13-2023:struct1000:a020:000",
+          "luat-91-2025:struct1000:a024:000"
+        ]
+      },
+      {
+        "query_id": "q15",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a038:000",
+          "nd-13-2023:struct1000:a043:000"
+        ]
+      },
+      {
+        "query_id": "q16",
+        "status": "answered",
+        "context_evidence": true,
+        "n_search": 2,
+        "citations": [
+          "luat-91-2025:struct1000:a038:000",
+          "nd-13-2023:struct1000:a043:000"
+        ]
+      },
+      {
+        "query_id": "u03",
+        "status": "abstain",
+        "context_evidence": null,
+        "n_search": 2,
+        "citations": []
+      },
+      {
+        "query_id": "u04",
+        "status": "abstain",
+        "context_evidence": null,
+        "n_search": 2,
+        "citations": []
+      }
+    ]
+  }
+}

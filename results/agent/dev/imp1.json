@@ -1,0 +1,1817 @@
+[
+  {
+    "query_id": "q01",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tài liệu tìm được không đủ thông tin để trả lời về mức phạt tiền tối đa đối với hành vi mua, bán dữ liệu cá nhân. Kết quả tìm kiếm chỉ có Điều 22 Nghị định 13/2023/NĐ-CP, quy định rằng việc thiết lập hệ thống phần mềm, biện pháp kỹ thuật hoặc tổ chức các hoạt động thu thập, chuyển giao, mua, bán dữ liệu cá nhân không có sự đồng ý của chủ thể dữ liệu là vi phạm pháp luật [nd-13-2023:struct1000:a022:000]. Điều này xác định hành vi vi phạm nhưng không nêu khung tiền phạt, cách tính mức phạt tối đa hay điều kiện áp dụng. Nội dung về xử phạt (ví dụ quy định về phạt tiền theo tỷ lệ doanh thu hoặc thu lợi bất hợp pháp) không xuất hiện trong các đoạn đã tra cứu. Để có câu trả lời, cần tra cứu thêm chương về xử lý vi phạm của Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 hoặc văn bản quy định xử phạt vi phạm hành chính liên quan.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "mức phạt tiền đối với hành vi mua bán dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a008:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 5,
+            "page_end": 6,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a008:001",
+            "rank": 2,
+            "score": 0.032258,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 6,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a022:000",
+            "rank": 3,
+            "score": 0.031498,
+            "source_id": "nd-13-2023",
+            "page": 17,
+            "page_end": 18,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a022:000"
+        ],
+        "context_chars": 536
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "xử phạt vi phạm quy định bảo vệ dữ liệu cá nhân mức phạt tối đa",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a008:001",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 6,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a008:000",
+            "rank": 2,
+            "score": 0.032258,
+            "source_id": "luat-91-2025",
+            "page": 5,
+            "page_end": 6,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a004:000",
+            "rank": 3,
+            "score": 0.031498,
+            "source_id": "nd-13-2023",
+            "page": 5,
+            "page_end": 5,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a022:000"
+        ],
+        "context_chars": 536
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 5097,
+      "output_tokens": 1144
+    },
+    "elapsed_ms": 6434.6,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q02",
+    "config": "imp1",
+    "status": "answered",
+    "answer": "Không. Theo Điều 9 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, sự im lặng hoặc không phản hồi không được coi là sự đồng ý [luat-91-2025:struct1000:a009:001]. Vì vậy, nếu người dùng không trả lời đề nghị xin phép xử lý dữ liệu, bên xử lý không thể coi đó là đã chấp thuận.\n\nNgoài ra, sự đồng ý chỉ có hiệu lực cho đến khi chủ thể dữ liệu thay đổi sự đồng ý đó hoặc theo quy định của pháp luật [luat-91-2025:struct1000:a009:001].",
+    "citations": [
+      "luat-91-2025:struct1000:a009:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "im lặng không phản hồi được coi là đồng ý xử lý dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a009:001",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 7,
+            "page_end": 7,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a011:001",
+            "rank": 2,
+            "score": 0.032258,
+            "source_id": "nd-13-2023",
+            "page": 10,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a019:000",
+            "rank": 3,
+            "score": 0.031258,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a009:001"
+        ],
+        "context_chars": 345
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "sự đồng ý của chủ thể dữ liệu phải được thể hiện bằng hành vi rõ ràng",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a011:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "nd-13-2023",
+            "page": 9,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a011:001",
+            "rank": 2,
+            "score": 0.032266,
+            "source_id": "nd-13-2023",
+            "page": 10,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a009:000",
+            "rank": 3,
+            "score": 0.031754,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 7,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a009:001"
+        ],
+        "context_chars": 345
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 2714,
+      "output_tokens": 761
+    },
+    "elapsed_ms": 4387.5,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q04",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Các kết quả tìm kiếm chỉ cho thấy Điều 19 Nghị định 13/2023/NĐ-CP về xử lý dữ liệu cá nhân của người bị tuyên bố mất tích hoặc đã chết, không đề cập đến dữ liệu đã được ẩn danh hay việc dữ liệu không còn nhận diện được danh tính có còn là dữ liệu cá nhân hay không. Tôi chưa tìm thấy điều khoản nào trong Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 hoặc Nghị định 13/2023/NĐ-CP quy định về vấn đề này. Để trả lời chính xác, cần tra cứu trực tiếp phần định nghĩa dữ liệu cá nhân và quy định về ẩn danh hóa trong Luật 91/2025/QH15.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "dữ liệu đã được ẩn danh không còn nhận diện được chủ thể có còn là dữ liệu cá nhân không",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a002:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "luat-91-2025",
+            "page": 1,
+            "page_end": 2,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a015:000",
+            "rank": 2,
+            "score": 0.029514,
+            "source_id": "nd-13-2023",
+            "page": 13,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a019:000",
+            "rank": 3,
+            "score": 0.028139,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a019:000"
+        ],
+        "context_chars": 593
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "dữ liệu ẩn danh không được coi là dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a002:000",
+            "rank": 1,
+            "score": 0.031754,
+            "source_id": "luat-91-2025",
+            "page": 1,
+            "page_end": 2,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a012:000",
+            "rank": 2,
+            "score": 0.03031,
+            "source_id": "luat-91-2025",
+            "page": 8,
+            "page_end": 8,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a002:001",
+            "rank": 3,
+            "score": 0.030303,
+            "source_id": "nd-13-2023",
+            "page": 2,
+            "page_end": 3,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a019:000"
+        ],
+        "context_chars": 593
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 5196,
+      "output_tokens": 1014
+    },
+    "elapsed_ms": 5813.6,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q05",
+    "config": "imp1",
+    "status": "answered",
+    "answer": "Theo đoạn Điều 20 khoản 6 của Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, một trong các trường hợp được liệt kê là: cơ quan, tổ chức lưu trữ dữ liệu cá nhân của người lao động thuộc cơ quan, tổ chức đó trên dịch vụ điện toán đám mây [luat-91-2025:struct1000:a020:002]. Nhìn chung, trường hợp này nằm trong danh mục các trường hợp đặc thù của khoản 6, nên công ty lưu dữ liệu của nhân viên mình trên đám mây có thể không thuộc diện phải làm đánh giá tác động chuyển dữ liệu xuyên biên giới.\n\nTuy nhiên, tôi chưa tìm được phần mở đầu của khoản 6 nêu rõ các trường hợp này được miễn những nghĩa vụ nào (ví dụ miễn toàn bộ thủ tục đánh giá tác động hay chỉ miễn một số điều kiện). Khoản 7 cho biết Chính phủ quy định chi tiết các khoản 1, 5 và 6 về thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động chuyển dữ liệu xuyên biên giới [luat-91-2025:struct1000:a020:002]. Vì vậy, kết luận trên cần được kiểm tra lại với nguyên văn đầy đủ của khoản 6 Điều 20 và quy định chi tiết của Chính phủ trước khi áp dụng.\n\nLưu ý: Đoạn tìm được chỉ là một phần của Điều 20; tôi không có thông tin về Nghị định 13/2023/NĐ-CP trong kết quả tìm kiếm này.",
+    "citations": [
+      "luat-91-2025:struct1000:a020:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a025:000",
+            "rank": 1,
+            "score": 0.032266,
+            "source_id": "nd-13-2023",
+            "page": 21,
+            "page_end": 21,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p037:001",
+            "rank": 2,
+            "score": 0.032018,
+            "source_id": "nd-13-2023",
+            "page": 37,
+            "page_end": 37,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a025:001",
+            "rank": 3,
+            "score": 0.032002,
+            "source_id": "nd-13-2023",
+            "page": 21,
+            "page_end": 22,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "lưu trữ dữ liệu cá nhân trên điện toán đám mây chuyển dữ liệu xuyên biên giới",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a020:002",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 13,
+            "page_end": 13,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a020:000",
+            "rank": 2,
+            "score": 0.032002,
+            "source_id": "luat-91-2025",
+            "page": 12,
+            "page_end": 13,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a030:000",
+            "rank": 3,
+            "score": 0.031754,
+            "source_id": "luat-91-2025",
+            "page": 20,
+            "page_end": 20,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a020:002"
+        ],
+        "context_chars": 547
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "invalid_answer",
+        "reason": "Câu trả lời có đáp án cần answer và ít nhất một citation."
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 5455,
+      "output_tokens": 2085
+    },
+    "elapsed_ms": 10733.3,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q07",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tài liệu tìm được chưa đủ để trả lời. Kết quả tìm kiếm chỉ cho thấy tên mẫu hồ sơ \"Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân\" hoặc \"Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài\" [nd-13-2023:struct1000:p036:002]. Không tìm thấy quy định nào nêu rõ hộ kinh doanh có phải lập hồ sơ này hay không, cũng như không có điều khoản nào về ngoại lệ hoặc miễn trừ (ví dụ cho hộ kinh doanh hoặc doanh nghiệp nhỏ và vừa). Vì vậy tôi không thể kết luận dựa trên hai văn bản đã cung cấp. Bạn nên tra cứu trực tiếp điều khoản về đánh giá tác động trong Luật số 91/2025/QH15 và Nghị định 13/2023/NĐ-CP, hoặc tham khảo cơ quan có thẩm quyền.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "hộ kinh doanh lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:p035:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "nd-13-2023",
+            "page": 35,
+            "page_end": 35,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a022:000",
+            "rank": 2,
+            "score": 0.030835,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p036:002",
+            "rank": 3,
+            "score": 0.030536,
+            "source_id": "nd-13-2023",
+            "page": 36,
+            "page_end": 36,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:p036:002"
+        ],
+        "context_chars": 596
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "miễn trừ lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân doanh nghiệp nhỏ và vừa hộ kinh doanh",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a043:000",
+            "rank": 2,
+            "score": 0.032522,
+            "source_id": "nd-13-2023",
+            "page": 29,
+            "page_end": 29,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a022:000",
+            "rank": 3,
+            "score": 0.029877,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:p036:002"
+        ],
+        "context_chars": 596
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 5390,
+      "output_tokens": 1101
+    },
+    "elapsed_ms": 7609.1,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q08",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tôi không tìm thấy thông tin trong Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 hoặc Nghị định 13/2023/NĐ-CP về việc nhà tuyển dụng phải làm gì với thông tin của ứng viên không trúng tuyển. Các lần tìm kiếm đều không trả về đoạn văn bản liên quan, và hệ thống đã hết lượt tìm kiếm. Vì vậy, tài liệu hiện có không đủ thông tin để trả lời câu hỏi này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "nhà tuyển dụng xử lý thông tin cá nhân của ứng viên không trúng tuyển",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a025:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a025:001",
+            "rank": 2,
+            "score": 0.032258,
+            "source_id": "luat-91-2025",
+            "page": 17,
+            "page_end": 17,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a023:001",
+            "rank": 3,
+            "score": 0.026389,
+            "source_id": "nd-13-2023",
+            "page": 18,
+            "page_end": 19,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "tuyển dụng hủy hoặc xóa dữ liệu cá nhân ứng viên khi không được tuyển",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a025:001",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "luat-91-2025",
+            "page": 17,
+            "page_end": 17,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a025:000",
+            "rank": 2,
+            "score": 0.032266,
+            "source_id": "luat-91-2025",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a014:001",
+            "rank": 3,
+            "score": 0.031754,
+            "source_id": "luat-91-2025",
+            "page": 9,
+            "page_end": 9,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3814,
+      "output_tokens": 615
+    },
+    "elapsed_ms": 5621.1,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q09",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tôi chưa tìm thấy trong hai văn bản (Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 13/2023/NĐ-CP) quy định nào trả lời trực tiếp việc nền tảng mạng xã hội có được nghe lén cuộc gọi hoặc đọc tin nhắn của người dùng hay không. Đoạn duy nhất tôi tìm được là về việc xử lý dữ liệu cá nhân thu được từ ghi âm, ghi hình tại nơi công cộng và hoạt động công cộng; đoạn này quy định cơ quan, tổ chức, cá nhân thực hiện ghi âm, ghi hình phải bảo vệ dữ liệu cá nhân theo Luật này [luat-91-2025:struct1000:a032:002], nhưng không đề cập đến nền tảng mạng xã hội hay việc nghe lén, đọc tin nhắn. Do đó, không đủ thông tin trong tài liệu để kết luận. Bạn nên tham khảo trực tiếp điều khoản về bảo vệ dữ liệu cá nhân trong Luật 91/2025/QH15 hoặc chính sách quyền riêng tư của nền tảng cụ thể, hoặc tra cứu thêm các văn bản pháp luật về an toàn thông tin và bí mật thông tin liên lạc.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "nghe lén cuộc gọi đọc tin nhắn người dùng nền tảng mạng xã hội",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a029:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 19,
+            "page_end": 19,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a028:001",
+            "rank": 2,
+            "score": 0.031746,
+            "source_id": "luat-91-2025",
+            "page": 18,
+            "page_end": 19,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a002:001",
+            "rank": 3,
+            "score": 0.030536,
+            "source_id": "nd-13-2023",
+            "page": 2,
+            "page_end": 3,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "bảo vệ bí mật thông tin liên lạc cá nhân nghe trộm ghi âm",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a032:000",
+            "rank": 1,
+            "score": 0.032266,
+            "source_id": "luat-91-2025",
+            "page": 21,
+            "page_end": 21,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a032:002",
+            "rank": 2,
+            "score": 0.032002,
+            "source_id": "luat-91-2025",
+            "page": 22,
+            "page_end": 22,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a029:000",
+            "rank": 3,
+            "score": 0.031545,
+            "source_id": "luat-91-2025",
+            "page": 19,
+            "page_end": 19,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a032:002"
+        ],
+        "context_chars": 451
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4531,
+      "output_tokens": 1227
+    },
+    "elapsed_ms": 7541.4,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q10",
+    "config": "imp1",
+    "status": "answered",
+    "answer": "Chỉ tìm được một căn cứ trong tài liệu, nên tôi chưa thể khẳng định chắc chắn. Theo Điều 9 Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, sự đồng ý có hiệu lực cho đến khi chủ thể dữ liệu cá nhân thay đổi sự đồng ý đó hoặc theo quy định của pháp luật [luat-91-2025:struct1000:a009:001]. Đồng thời, sự im lặng hoặc không phản hồi không được coi là sự đồng ý [luat-91-2025:struct1000:a009:001]. \n\nVì vậy, có thể hiểu rằng sự đồng ý đã xác lập trước đó không tự động mất hiệu lực chỉ vì luật mới có hiệu lực, trừ khi chủ thể đã thay đổi sự đồng ý hoặc pháp luật có quy định khác. Tuy nhiên, tôi không tìm thấy trong các kết quả tìm kiếm điều khoản chuyển tiếp nào nói rõ về sự đồng ý đã xác lập theo Nghị định 13/2023/NĐ-CP, cũng như không có nội dung nào xác định việc có phải xin đồng ý lại hay không. Do đó, chưa đủ cơ sở để kết luận là không cần xin đồng ý lại; cần kiểm tra thêm các quy định chuyển tiếp của Luật và các hướng dẫn chi tiết của Chính phủ.",
+    "citations": [
+      "luat-91-2025:struct1000:a009:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "dữ liệu cá nhân đã được đồng ý trước khi luật có hiệu lực có phải xin đồng ý lại",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a039:000",
+            "rank": 1,
+            "score": 0.031778,
+            "source_id": "luat-91-2025",
+            "page": 25,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a009:001",
+            "rank": 2,
+            "score": 0.031498,
+            "source_id": "luat-91-2025",
+            "page": 7,
+            "page_end": 7,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a011:000",
+            "rank": 3,
+            "score": 0.031258,
+            "source_id": "nd-13-2023",
+            "page": 9,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a009:001"
+        ],
+        "context_chars": 345
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "xử lý dữ liệu cá nhân trước ngày Luật có hiệu lực tiếp tục xử lý",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a039:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 25,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 2,
+            "score": 0.032258,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a005:000",
+            "rank": 3,
+            "score": 0.031025,
+            "source_id": "luat-91-2025",
+            "page": 4,
+            "page_end": 4,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a009:001"
+        ],
+        "context_chars": 345
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "invalid_answer",
+        "reason": "Câu trả lời có đáp án cần answer và ít nhất một citation."
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 4,
+      "input_tokens": 7518,
+      "output_tokens": 2136
+    },
+    "elapsed_ms": 11951.8,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q11",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tôi chưa tìm được trong tài liệu đã truy xuất thông tin nêu rõ tên cơ quan chuyên trách bảo vệ dữ liệu cá nhân. Kết quả duy nhất liên quan là phần cuối của Điều 29 Nghị định 13/2023/NĐ-CP, tiêu đề \"Cơ quan chuyên trách bảo vệ dữ liệu cá nhân và Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân\". Đoạn này chỉ liệt kê một số nhiệm vụ, như cảnh báo về nguy cơ, hành vi xâm phạm dữ liệu cá nhân và xử lý vi phạm, mà không nêu tên cơ quan [nd-13-2023:struct1000:a029:001]. Hệ thống đã hết lượt tìm kiếm nên chưa tra cứu được phần đầu của Điều 29 hoặc Luật số 91/2025/QH15. Để có câu trả lời chính xác, bạn nên tra cứu trực tiếp Điều 29 Nghị định 13/2023/NĐ-CP hoặc quy định về cơ quan chuyên trách trong Luật số 91/2025/QH15.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "cơ quan chuyên trách bảo vệ dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a029:000",
+            "rank": 1,
+            "score": 0.032266,
+            "source_id": "nd-13-2023",
+            "page": 24,
+            "page_end": 24,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a030:000",
+            "rank": 2,
+            "score": 0.032018,
+            "source_id": "nd-13-2023",
+            "page": 24,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a023:001",
+            "rank": 3,
+            "score": 0.032002,
+            "source_id": "luat-91-2025",
+            "page": 15,
+            "page_end": 15,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "cơ quan chuyên trách về bảo vệ dữ liệu cá nhân là cơ quan nào",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a029:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "nd-13-2023",
+            "page": 24,
+            "page_end": 24,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a030:000",
+            "rank": 2,
+            "score": 0.032002,
+            "source_id": "nd-13-2023",
+            "page": 24,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a029:001",
+            "rank": 3,
+            "score": 0.031514,
+            "source_id": "nd-13-2023",
+            "page": 24,
+            "page_end": 24,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a029:001"
+        ],
+        "context_chars": 434
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3725,
+      "output_tokens": 1032
+    },
+    "elapsed_ms": 6201.2,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q12",
+    "config": "imp1",
+    "status": "answered",
+    "answer": "Theo Nghị định 13/2023/NĐ-CP, nếu người đã chết không còn vợ, chồng hoặc con thành niên thì phải được sự đồng ý của cha, mẹ của người đó trước khi xử lý dữ liệu cá nhân [nd-13-2023:struct1000:a019:000]. Nếu không có tất cả những người này (vợ, chồng, con thành niên và cha, mẹ) thì được coi là không có sự đồng ý [nd-13-2023:struct1000:a019:000]. Quy định này không áp dụng trong các trường hợp nêu tại Điều 17 và Điều 18 Nghị định, nhưng nội dung hai điều đó không có trong kết quả tra cứu nên không được nêu cụ thể. Câu trả lời chỉ dựa trên Nghị định 13/2023; chưa tra cứu Luật số 91/2025/QH15.",
+    "citations": [
+      "nd-13-2023:struct1000:a019:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "xử lý dữ liệu cá nhân của người đã chết sự đồng ý của cha mẹ, người thân",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a019:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a020:000",
+            "rank": 2,
+            "score": 0.031258,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 17,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a024:001",
+            "rank": 3,
+            "score": 0.030331,
+            "source_id": "luat-91-2025",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a019:000"
+        ],
+        "context_chars": 593
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "dữ liệu cá nhân người chết không có vợ chồng con thành niên đồng ý",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a019:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 16,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a002:000",
+            "rank": 2,
+            "score": 0.031281,
+            "source_id": "nd-13-2023",
+            "page": 2,
+            "page_end": 2,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a002:001",
+            "rank": 3,
+            "score": 0.031281,
+            "source_id": "nd-13-2023",
+            "page": 2,
+            "page_end": 3,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a019:000"
+        ],
+        "context_chars": 593
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 2876,
+      "output_tokens": 1121
+    },
+    "elapsed_ms": 5696.0,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q13",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu đã tìm được để trả lời chính xác số ngày. Đoạn văn bản tìm thấy chỉ quy định: khi nhận được yêu cầu của chủ thể dữ liệu cá nhân để thực hiện quyền của mình, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải kịp thời thực hiện trong thời hạn theo quy định của pháp luật, và Chính phủ sẽ quy định chi tiết nội dung này [luat-91-2025:struct1000:a004:002]. Đoạn này không nêu cụ thể thời hạn xóa dữ liệu. Để có con số cụ thể, cần tra cứu phần quy định chi tiết của Chính phủ (Nghị định 13/2023/NĐ-CP hoặc văn bản hướng dẫn thay thế), nhưng các đoạn đã tìm được chưa có nội dung này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "thời hạn xóa dữ liệu cá nhân theo yêu cầu của chủ thể dữ liệu",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a014:000",
+            "rank": 1,
+            "score": 0.032258,
+            "source_id": "luat-91-2025",
+            "page": 8,
+            "page_end": 9,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a004:002",
+            "rank": 2,
+            "score": 0.03125,
+            "source_id": "luat-91-2025",
+            "page": 4,
+            "page_end": 4,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a009:000",
+            "rank": 3,
+            "score": 0.030798,
+            "source_id": "nd-13-2023",
+            "page": 7,
+            "page_end": 8,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a004:002"
+        ],
+        "context_chars": 432
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "xóa dữ liệu cá nhân trong thời hạn ngày làm việc kể từ ngày nhận yêu cầu",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a014:000",
+            "rank": 1,
+            "score": 0.031746,
+            "source_id": "luat-91-2025",
+            "page": 8,
+            "page_end": 9,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a010:001",
+            "rank": 2,
+            "score": 0.031514,
+            "source_id": "luat-91-2025",
+            "page": 7,
+            "page_end": 7,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a014:003",
+            "rank": 3,
+            "score": 0.03055,
+            "source_id": "nd-13-2023",
+            "page": 13,
+            "page_end": 13,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a004:002"
+        ],
+        "context_chars": 432
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4304,
+      "output_tokens": 892
+    },
+    "elapsed_ms": 5920.6,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q17",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Các lần tìm kiếm với nhiều cách diễn đạt khác nhau (về thông báo vi phạm, đối tượng nhận thông báo và thời hạn thông báo) đều không trả về đoạn văn bản nào từ Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 hoặc Nghị định 13/2023/NĐ-CP. Vì vậy tôi không thể xác định bên nhận thông báo và thời hạn thông báo khi phát hiện vi phạm. Bạn nên tra cứu trực tiếp điều khoản về thông báo vi phạm trong hai văn bản này.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "thông báo vi phạm quy định bảo vệ dữ liệu cá nhân thời hạn",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a023:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "luat-91-2025",
+            "page": 15,
+            "page_end": 15,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a023:000",
+            "rank": 2,
+            "score": 0.032522,
+            "source_id": "nd-13-2023",
+            "page": 18,
+            "page_end": 18,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a023:001",
+            "rank": 3,
+            "score": 0.031025,
+            "source_id": "luat-91-2025",
+            "page": 15,
+            "page_end": 15,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "hành vi vi phạm dữ liệu cá nhân thông báo Bộ Công an trong 72 giờ",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a023:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "nd-13-2023",
+            "page": 18,
+            "page_end": 18,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a023:000",
+            "rank": 2,
+            "score": 0.032258,
+            "source_id": "luat-91-2025",
+            "page": 15,
+            "page_end": 15,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a023:001",
+            "rank": 3,
+            "score": 0.031746,
+            "source_id": "nd-13-2023",
+            "page": 18,
+            "page_end": 19,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3863,
+      "output_tokens": 696
+    },
+    "elapsed_ms": 4678.9,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q18",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tôi chưa tìm được đoạn nào trong Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 hoặc Nghị định 13/2023/NĐ-CP nói về các hình thức thể hiện sự đồng ý của chủ thể dữ liệu. Hệ thống tìm kiếm đã hết lượt trước khi tìm được bằng chứng, nên tôi không thể trả lời dựa trên tài liệu. Bạn có thể thử lại với truy vấn khác hoặc tra cứu trực tiếp điều khoản về sự đồng ý trong hai văn bản trên.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "hình thức thể hiện sự đồng ý của chủ thể dữ liệu",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a009:000",
+            "rank": 1,
+            "score": 0.032266,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 7,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a011:000",
+            "rank": 2,
+            "score": 0.032266,
+            "source_id": "nd-13-2023",
+            "page": 9,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a011:001",
+            "rank": 3,
+            "score": 0.031754,
+            "source_id": "nd-13-2023",
+            "page": 10,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "sự đồng ý của chủ thể dữ liệu bằng văn bản, giọng nói, đánh dấu chọn, cú pháp",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a011:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "nd-13-2023",
+            "page": 9,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a011:001",
+            "rank": 2,
+            "score": 0.032522,
+            "source_id": "nd-13-2023",
+            "page": 10,
+            "page_end": 10,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a009:000",
+            "rank": 3,
+            "score": 0.03125,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 7,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3821,
+      "output_tokens": 665
+    },
+    "elapsed_ms": 5679.8,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q19",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Các lần tìm kiếm với nhiều cách diễn đạt khác nhau về hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và thời hạn gửi cho cơ quan chuyên trách đều không trả về đoạn văn bản nào, và hết lượt tìm kiếm. Bạn nên tra cứu trực tiếp điều khoản về đánh giá tác động xử lý dữ liệu cá nhân trong Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 hoặc Nghị định 13/2023/NĐ-CP.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "hồ sơ đánh giá tác động xử lý dữ liệu cá nhân gửi cơ quan chuyên trách thời hạn",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a021:000",
+            "rank": 1,
+            "score": 0.032522,
+            "source_id": "luat-91-2025",
+            "page": 13,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a021:001",
+            "rank": 2,
+            "score": 0.032522,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a024:002",
+            "rank": 3,
+            "score": 0.031258,
+            "source_id": "nd-13-2023",
+            "page": 20,
+            "page_end": 20,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "đánh giá tác động xử lý dữ liệu cá nhân",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a024:002",
+            "rank": 1,
+            "score": 0.03101,
+            "source_id": "nd-13-2023",
+            "page": 20,
+            "page_end": 20,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a021:001",
+            "rank": 2,
+            "score": 0.030622,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a022:000",
+            "rank": 3,
+            "score": 0.03055,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 4,
+      "input_tokens": 4937,
+      "output_tokens": 686
+    },
+    "elapsed_ms": 5304.5,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "q20",
+    "config": "imp1",
+    "status": "answered",
+    "answer": "Mẫu số 03 trong Phụ lục kèm theo Nghị định 13/2023/NĐ-CP là \"Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\" [nd-13-2023:struct1000:p030:000]. Theo tên gọi này, mẫu dùng để thông báo về hành vi vi phạm quy định bảo vệ dữ liệu cá nhân. Tài liệu chỉ liệt kê tên mẫu, không có phần hướng dẫn chi tiết về cách điền hay đối tượng nộp.",
+    "citations": [
+      "nd-13-2023:struct1000:p030:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Mẫu số 03 dùng cho việc gì",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:p030:000",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "nd-13-2023",
+            "page": 30,
+            "page_end": 30,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p033:000",
+            "rank": 2,
+            "score": 0.032002,
+            "source_id": "nd-13-2023",
+            "page": 33,
+            "page_end": 33,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p032:000",
+            "rank": 3,
+            "score": 0.031258,
+            "source_id": "nd-13-2023",
+            "page": 32,
+            "page_end": 32,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:p030:000"
+        ],
+        "context_chars": 542
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 2404,
+      "output_tokens": 538
+    },
+    "elapsed_ms": 3556.5,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "u01",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Tài liệu được cung cấp (Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 13/2023/NĐ-CP) không chứa thông tin về mức lương tối thiểu vùng áp dụng năm 2026. Các kết quả tìm kiếm chỉ trả về nội dung không liên quan đến lương tối thiểu. Bạn nên tham khảo văn bản quy định về mức lương tối thiểu vùng do cơ quan có thẩm quyền ban hành.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "mức lương tối thiểu vùng năm 2026",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a008:001",
+            "rank": 1,
+            "score": 0.032266,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 6,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 2,
+            "score": 0.032266,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a039:001",
+            "rank": 3,
+            "score": 0.030415,
+            "source_id": "luat-91-2025",
+            "page": 25,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a039:001"
+        ],
+        "context_chars": 256
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "lương tối thiểu vùng I II III IV",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a008:001",
+            "rank": 1,
+            "score": 0.032787,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 6,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a043:000",
+            "rank": 2,
+            "score": 0.031498,
+            "source_id": "nd-13-2023",
+            "page": 29,
+            "page_end": 29,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a002:001",
+            "rank": 3,
+            "score": 0.02895,
+            "source_id": "nd-13-2023",
+            "page": 2,
+            "page_end": 3,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a039:001"
+        ],
+        "context_chars": 256
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3997,
+      "output_tokens": 547
+    },
+    "elapsed_ms": 5352.2,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  },
+  {
+    "query_id": "u02",
+    "config": "imp1",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Các tài liệu hiện có (Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 13/2023/NĐ-CP) tập trung vào bảo vệ dữ liệu cá nhân; kết quả tìm kiếm không chứa quy định nào về thuế suất thuế thu nhập doanh nghiệp đối với doanh nghiệp công nghệ. Bạn nên tham khảo văn bản pháp luật về thuế thu nhập doanh nghiệp.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "thuế suất thuế thu nhập doanh nghiệp đối với doanh nghiệp công nghệ",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:p033:000",
+            "rank": 1,
+            "score": 0.032266,
+            "source_id": "nd-13-2023",
+            "page": 33,
+            "page_end": 33,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p036:000",
+            "rank": 2,
+            "score": 0.031754,
+            "source_id": "nd-13-2023",
+            "page": 36,
+            "page_end": 36,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p037:000",
+            "rank": 3,
+            "score": 0.031754,
+            "source_id": "nd-13-2023",
+            "page": 37,
+            "page_end": 37,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "thuế suất thuế thu nhập doanh nghiệp",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a043:000",
+            "rank": 1,
+            "score": 0.031498,
+            "source_id": "nd-13-2023",
+            "page": 29,
+            "page_end": 29,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 2,
+            "score": 0.030536,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "hybrid_rrf"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a016:001",
+            "rank": 3,
+            "score": 0.029907,
+            "source_id": "nd-13-2023",
+            "page": 14,
+            "page_end": 15,
+            "method": "hybrid_rrf"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a043:000"
+        ],
+        "context_chars": 618
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 4,
+      "input_tokens": 5475,
+      "output_tokens": 587
+    },
+    "elapsed_ms": 4664.8,
+    "error": null,
+    "settings": {
+      "retriever": "hybrid_rrf",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "dev"
+  }
+]

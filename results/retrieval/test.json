@@ -1,0 +1,1325 @@
+{
+  "split": "test",
+  "budget_chars": 800,
+  "filter_inferred": false,
+  "methods": {
+    "dense": {
+      "summary": {
+        "n_answerable": 5,
+        "hit1": 4,
+        "evidence_hit3": 5,
+        "context_evidence_rate": 1,
+        "median_ms": 30.0,
+        "service_cost_usd": 0.0
+      },
+      "traces": [
+        {
+          "query_id": "q03",
+          "question": "Tổ chức vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới bị phạt tiền tối đa bao nhiêu, và khi nào thì không tính theo doanh thu?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a008:001",
+              "text": "[Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân (tiếp)]\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 6,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 0.938666,
+              "rank": 1,
+              "method": "dense",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a020:001",
+              "text": "[Điều 20. Chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\n3. Đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện 01 lần cho suốt thời gian hoạt động của cơ quan, tổ chức, cá nhân đó và được cập nhật theo quy định tại Điều 22 của Luật này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định việc kiểm tra chuyển dữ liệu cá nhân xuyên biên giới định kỳ không quá 01 lần trong năm hoặc kiểm tra đột xuất khi phát hiện hành vi vi phạm quy định của pháp luật về bảo vệ dữ liệu cá nhân hoặc khi xảy ra sự cố lộ, mất dữ liệu cá nhân.\n5. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định yêu cầu ngừng chuyển dữ liệu cá nhân xuyên biên giới của cơ quan, tổ chức, cá nhân khi phát hiện dữ liệu cá nhân được chuyển để sử dụng vào hoạt động có thể gây tổn hại đến quốc phòng, an ninh quốc gia.\n6. Các trường hợp không phải thực hiện quy định về đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới bao gồm:\na) Việc chuyển dữ liệu cá nhân xuyên biên giới của cơ quan nhà nước có thẩm quyền;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 13,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 13,
+                "pages": "13",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.910656,
+              "rank": 2,
+              "method": "dense",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a020:000",
+              "text": "Điều 20. Chuyển dữ liệu cá nhân xuyên biên giới\n1. Các trường hợp chuyển dữ liệu cá nhân xuyên biên giới bao gồm:\na) Chuyển dữ liệu cá nhân đang lưu trữ tại Việt Nam đến hệ thống lưu trữ dữ liệu đặt ngoài lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam;\nb) Cơ quan, tổ chức, cá nhân tại Việt Nam chuyển dữ liệu cá nhân cho tổ chức, cá nhân ở nước ngoài;\nc) Cơ quan, tổ chức, cá nhân tại Việt Nam hoặc ở nước ngoài sử dụng nền tảng ở ngoài lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam để xử lý dữ liệu cá nhân được thu thập tại Việt Nam.\n2. Cơ quan, tổ chức, cá nhân chuyển dữ liệu cá nhân xuyên biên giới thực hiện các hoạt động quy định tại khoản 1 Điều này phải lập hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên chuyển dữ liệu cá nhân xuyên biên giới, trừ trường hợp quy định tại khoản 6 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 12,
+              "page_end": 13,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 13,
+                "pages": "12,13",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.901348,
+              "rank": 3,
+              "method": "dense",
+              "hit": false
+            }
+          ],
+          "context_ids": [],
+          "context_chars": 0,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q06",
+          "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân được cập nhật định kỳ bao lâu một lần?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a022:000",
+              "text": "Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới\n1. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này.\n2. Các trường hợp thay đổi cần cập nhật ngay bao gồm:\na) Khi cơ quan, tổ chức, đơn vị được tổ chức lại, chấm dứt hoạt động, giải thể, phá sản theo quy định của pháp luật;\nb) Khi có sự thay đổi thông tin về tổ chức, cá nhân cung cấp dịch vụ bảo vệ dữ liệu cá nhân;\nc) Khi phát sinh hoặc thay đổi ngành, nghề, dịch vụ kinh doanh liên quan đến xử lý dữ liệu cá nhân đã đăng ký trong hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 0.928092,
+              "rank": 1,
+              "method": "dense",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a021:000",
+              "text": "Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n2. Đánh giá tác động xử lý dữ liệu cá nhân được thực hiện 01 lần cho suốt thời gian hoạt động của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân và được cập nhật theo quy định tại Điều 22 của Luật này.\n3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "13,14",
+                "article": 21,
+                "chunking": "structure"
+              },
+              "score": 0.917282,
+              "rank": 2,
+              "method": "dense",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a024:000",
+              "text": "Mục 3 – ĐÁNH GIÁ TÁC ĐỘNG – VÀ CHUYỂN DỮ LIỆU CÁ NHÂN RA NƯỚC NGOÀI\nĐiều 24. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân lập và lưu giữ Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân của mình kể từ thời điểm bắt đầu xử lý dữ liệu cá nhân.\nHồ sơ đánh giá tác động xử lý dữ liệu cá nhân của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, bao gồm:\na) Thông tin và chi tiết liên lạc của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân;\nb) Họ tên, chi tiết liên lạc của tổ chức được phân công thực hiện nhiệm vụ bảo vệ dữ liệu cá nhân và nhân viên bảo vệ dữ liệu cá nhân của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân;\nc) Mục đích xử lý dữ liệu cá nhân;\nd) Các loại dữ liệu cá nhân được xử lý;\nđ) Tổ chức, cá nhân nhận dữ liệu cá nhân, bao gồm tổ chức, cá nhân ngoài lãnh thổ Việt Nam;\ne) Trường hợp chuyển dữ liệu cá nhân ra nước ngoài;\ng) Thời gian xử lý dữ liệu cá nhân; thời gian dự kiến để xóa, hủy dữ liệu cá nhân (nếu có);",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 19,
+              "page_end": 19,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 19,
+                "pages": "19",
+                "article": 24,
+                "chunking": "structure"
+              },
+              "score": 0.910123,
+              "rank": 3,
+              "method": "dense",
+              "hit": false
+            }
+          ],
+          "context_ids": [],
+          "context_chars": 0,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q14",
+          "question": "Trước khi xử lý dữ liệu của trẻ nhỏ, doanh nghiệp bắt buộc phải kiểm tra điều gì?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a020:000",
+              "text": "Điều 20. Xử lý dữ liệu cá nhân của trẻ em\n1. Xử lý dữ liệu cá nhân của trẻ em luôn được thực hiện theo nguyên tắc bảo vệ các quyền và vì lợi ích tốt nhất của trẻ em.\n2. Việc xử lý dữ liệu cá nhân của trẻ em phải có sự đồng ý của trẻ em trong trường hợp trẻ em từ đủ 7 tuổi trở lên và có sự đồng ý của cha, mẹ hoặc người giám hộ theo quy định, trừ trường hợp quy định tại Điều 17 Nghị định này. Bên Kiểm soát dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên thứ ba phải xác minh tuổi của trẻ em trước khi xử lý dữ liệu cá nhân của trẻ em.\n3. Ngừng xử lý dữ liệu cá nhân của trẻ em, xóa không thể khôi phục hoặc hủy dữ liệu cá nhân của trẻ em trong trường hợp:\na) Xử lý dữ liệu không đúng mục đích hoặc đã hoàn thành mục đích xử lý dữ liệu cá nhân được chủ thể dữ liệu đồng ý, trừ trường hợp pháp luật có quy định khác;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 16,
+              "page_end": 17,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 17,
+                "pages": "16,17",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.870218,
+              "rank": 1,
+              "method": "dense",
+              "hit": true
+            },
+            {
+              "id": "nd-13-2023:struct1000:a020:001",
+              "text": "[Điều 20. Xử lý dữ liệu cá nhân của trẻ em (tiếp)]\nb) Cha, mẹ hoặc người giám hộ của trẻ em rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân của trẻ em, trừ trường hợp pháp luật có quy định khác;\nc) Theo yêu cầu của cơ quan chức năng có thẩm quyền khi có đủ căn cứ chứng minh việc xử lý dữ liệu cá nhân gây ảnh hưởng tới quyền và lợi ích hợp pháp của trẻ em, trừ trường hợp pháp luật có quy định khác.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 17,
+              "page_end": 17,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 17,
+                "pages": "17",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.868368,
+              "rank": 2,
+              "method": "dense",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 0.865782,
+              "rank": 3,
+              "method": "dense",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a020:001"
+          ],
+          "context_chars": 461,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q15",
+          "question": "Văn bản này có hiệu lực thi hành từ ngày nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 0.88657,
+              "rank": 1,
+              "method": "dense",
+              "hit": true
+            },
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 0.885551,
+              "rank": 2,
+              "method": "dense",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.858267,
+              "rank": 3,
+              "method": "dense",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q16",
+          "question": "Văn bản này có hiệu lực thi hành từ ngày nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 0.88657,
+              "rank": 1,
+              "method": "dense",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 0.885551,
+              "rank": 2,
+              "method": "dense",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.858267,
+              "rank": 3,
+              "method": "dense",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": true
+        }
+      ]
+    },
+    "bm25": {
+      "summary": {
+        "n_answerable": 5,
+        "hit1": 3,
+        "evidence_hit3": 5,
+        "context_evidence_rate": 1,
+        "median_ms": 1.0,
+        "service_cost_usd": 0.0
+      },
+      "traces": [
+        {
+          "query_id": "q03",
+          "question": "Tổ chức vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới bị phạt tiền tối đa bao nhiêu, và khi nào thì không tính theo doanh thu?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a008:001",
+              "text": "[Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân (tiếp)]\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 6,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 57.786632,
+              "rank": 1,
+              "method": "bm25",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a008:000",
+              "text": "Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân\n1. Tổ chức, cá nhân có hành vi vi phạm quy định của Luật này và quy định khác của pháp luật có liên quan đến bảo vệ dữ liệu cá nhân thì tùy theo tính chất, mức độ, hậu quả của hành vi vi phạm có thể bị xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.\n2. Việc xử phạt vi phạm hành chính trong lĩnh vực bảo vệ dữ liệu cá nhân thực hiện theo quy định tại các khoản 3, 4, 5, 6 và 7 Điều này và pháp luật về xử lý vi phạm hành chính.\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 5,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "5,6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 42.898386,
+              "rank": 2,
+              "method": "bm25",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a020:001",
+              "text": "[Điều 20. Chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\n3. Đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện 01 lần cho suốt thời gian hoạt động của cơ quan, tổ chức, cá nhân đó và được cập nhật theo quy định tại Điều 22 của Luật này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định việc kiểm tra chuyển dữ liệu cá nhân xuyên biên giới định kỳ không quá 01 lần trong năm hoặc kiểm tra đột xuất khi phát hiện hành vi vi phạm quy định của pháp luật về bảo vệ dữ liệu cá nhân hoặc khi xảy ra sự cố lộ, mất dữ liệu cá nhân.\n5. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định yêu cầu ngừng chuyển dữ liệu cá nhân xuyên biên giới của cơ quan, tổ chức, cá nhân khi phát hiện dữ liệu cá nhân được chuyển để sử dụng vào hoạt động có thể gây tổn hại đến quốc phòng, an ninh quốc gia.\n6. Các trường hợp không phải thực hiện quy định về đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới bao gồm:\na) Việc chuyển dữ liệu cá nhân xuyên biên giới của cơ quan nhà nước có thẩm quyền;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 13,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 13,
+                "pages": "13",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 26.939004,
+              "rank": 3,
+              "method": "bm25",
+              "hit": false
+            }
+          ],
+          "context_ids": [],
+          "context_chars": 0,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q06",
+          "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân được cập nhật định kỳ bao lâu một lần?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a022:000",
+              "text": "Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới\n1. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này.\n2. Các trường hợp thay đổi cần cập nhật ngay bao gồm:\na) Khi cơ quan, tổ chức, đơn vị được tổ chức lại, chấm dứt hoạt động, giải thể, phá sản theo quy định của pháp luật;\nb) Khi có sự thay đổi thông tin về tổ chức, cá nhân cung cấp dịch vụ bảo vệ dữ liệu cá nhân;\nc) Khi phát sinh hoặc thay đổi ngành, nghề, dịch vụ kinh doanh liên quan đến xử lý dữ liệu cá nhân đã đăng ký trong hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 31.641893,
+              "rank": 1,
+              "method": "bm25",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a022:001",
+              "text": "[Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\n3. Việc cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện trên Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân hoặc tại cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 26.459416,
+              "rank": 2,
+              "method": "bm25",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a021:000",
+              "text": "Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n2. Đánh giá tác động xử lý dữ liệu cá nhân được thực hiện 01 lần cho suốt thời gian hoạt động của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân và được cập nhật theo quy định tại Điều 22 của Luật này.\n3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "13,14",
+                "article": 21,
+                "chunking": "structure"
+              },
+              "score": 23.122455,
+              "rank": 3,
+              "method": "bm25",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a022:001"
+          ],
+          "context_chars": 496,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q14",
+          "question": "Trước khi xử lý dữ liệu của trẻ nhỏ, doanh nghiệp bắt buộc phải kiểm tra điều gì?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 18.745848,
+              "rank": 1,
+              "method": "bm25",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 18.020882,
+              "rank": 2,
+              "method": "bm25",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a020:000",
+              "text": "Điều 20. Xử lý dữ liệu cá nhân của trẻ em\n1. Xử lý dữ liệu cá nhân của trẻ em luôn được thực hiện theo nguyên tắc bảo vệ các quyền và vì lợi ích tốt nhất của trẻ em.\n2. Việc xử lý dữ liệu cá nhân của trẻ em phải có sự đồng ý của trẻ em trong trường hợp trẻ em từ đủ 7 tuổi trở lên và có sự đồng ý của cha, mẹ hoặc người giám hộ theo quy định, trừ trường hợp quy định tại Điều 17 Nghị định này. Bên Kiểm soát dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên thứ ba phải xác minh tuổi của trẻ em trước khi xử lý dữ liệu cá nhân của trẻ em.\n3. Ngừng xử lý dữ liệu cá nhân của trẻ em, xóa không thể khôi phục hoặc hủy dữ liệu cá nhân của trẻ em trong trường hợp:\na) Xử lý dữ liệu không đúng mục đích hoặc đã hoàn thành mục đích xử lý dữ liệu cá nhân được chủ thể dữ liệu đồng ý, trừ trường hợp pháp luật có quy định khác;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 16,
+              "page_end": 17,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 17,
+                "pages": "16,17",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 15.014373,
+              "rank": 3,
+              "method": "bm25",
+              "hit": true
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q15",
+          "question": "Văn bản này có hiệu lực thi hành từ ngày nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 20.936042,
+              "rank": 1,
+              "method": "bm25",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 20.852186,
+              "rank": 2,
+              "method": "bm25",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 19.30736,
+              "rank": 3,
+              "method": "bm25",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q16",
+          "question": "Văn bản này có hiệu lực thi hành từ ngày nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 20.936042,
+              "rank": 1,
+              "method": "bm25",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 20.852186,
+              "rank": 2,
+              "method": "bm25",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 19.30736,
+              "rank": 3,
+              "method": "bm25",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        }
+      ]
+    },
+    "hybrid_rrf": {
+      "summary": {
+        "n_answerable": 5,
+        "hit1": 4,
+        "evidence_hit3": 5,
+        "context_evidence_rate": 1,
+        "median_ms": 36.6,
+        "service_cost_usd": 0.0
+      },
+      "traces": [
+        {
+          "query_id": "q03",
+          "question": "Tổ chức vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới bị phạt tiền tối đa bao nhiêu, và khi nào thì không tính theo doanh thu?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a008:001",
+              "text": "[Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân (tiếp)]\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 6,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a020:001",
+              "text": "[Điều 20. Chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\n3. Đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện 01 lần cho suốt thời gian hoạt động của cơ quan, tổ chức, cá nhân đó và được cập nhật theo quy định tại Điều 22 của Luật này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định việc kiểm tra chuyển dữ liệu cá nhân xuyên biên giới định kỳ không quá 01 lần trong năm hoặc kiểm tra đột xuất khi phát hiện hành vi vi phạm quy định của pháp luật về bảo vệ dữ liệu cá nhân hoặc khi xảy ra sự cố lộ, mất dữ liệu cá nhân.\n5. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định yêu cầu ngừng chuyển dữ liệu cá nhân xuyên biên giới của cơ quan, tổ chức, cá nhân khi phát hiện dữ liệu cá nhân được chuyển để sử dụng vào hoạt động có thể gây tổn hại đến quốc phòng, an ninh quốc gia.\n6. Các trường hợp không phải thực hiện quy định về đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới bao gồm:\na) Việc chuyển dữ liệu cá nhân xuyên biên giới của cơ quan nhà nước có thẩm quyền;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 13,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 13,
+                "pages": "13",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a008:000",
+              "text": "Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân\n1. Tổ chức, cá nhân có hành vi vi phạm quy định của Luật này và quy định khác của pháp luật có liên quan đến bảo vệ dữ liệu cá nhân thì tùy theo tính chất, mức độ, hậu quả của hành vi vi phạm có thể bị xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.\n2. Việc xử phạt vi phạm hành chính trong lĩnh vực bảo vệ dữ liệu cá nhân thực hiện theo quy định tại các khoản 3, 4, 5, 6 và 7 Điều này và pháp luật về xử lý vi phạm hành chính.\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 5,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "5,6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 0.031754,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [],
+          "context_chars": 0,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q06",
+          "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân được cập nhật định kỳ bao lâu một lần?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a022:000",
+              "text": "Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới\n1. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này.\n2. Các trường hợp thay đổi cần cập nhật ngay bao gồm:\na) Khi cơ quan, tổ chức, đơn vị được tổ chức lại, chấm dứt hoạt động, giải thể, phá sản theo quy định của pháp luật;\nb) Khi có sự thay đổi thông tin về tổ chức, cá nhân cung cấp dịch vụ bảo vệ dữ liệu cá nhân;\nc) Khi phát sinh hoặc thay đổi ngành, nghề, dịch vụ kinh doanh liên quan đến xử lý dữ liệu cá nhân đã đăng ký trong hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a021:000",
+              "text": "Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n2. Đánh giá tác động xử lý dữ liệu cá nhân được thực hiện 01 lần cho suốt thời gian hoạt động của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân và được cập nhật theo quy định tại Điều 22 của Luật này.\n3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "13,14",
+                "article": 21,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a022:001",
+              "text": "[Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\n3. Việc cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện trên Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân hoặc tại cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 0.031054,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a022:001"
+          ],
+          "context_chars": 496,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q14",
+          "question": "Trước khi xử lý dữ liệu của trẻ nhỏ, doanh nghiệp bắt buộc phải kiểm tra điều gì?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a020:000",
+              "text": "Điều 20. Xử lý dữ liệu cá nhân của trẻ em\n1. Xử lý dữ liệu cá nhân của trẻ em luôn được thực hiện theo nguyên tắc bảo vệ các quyền và vì lợi ích tốt nhất của trẻ em.\n2. Việc xử lý dữ liệu cá nhân của trẻ em phải có sự đồng ý của trẻ em trong trường hợp trẻ em từ đủ 7 tuổi trở lên và có sự đồng ý của cha, mẹ hoặc người giám hộ theo quy định, trừ trường hợp quy định tại Điều 17 Nghị định này. Bên Kiểm soát dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên thứ ba phải xác minh tuổi của trẻ em trước khi xử lý dữ liệu cá nhân của trẻ em.\n3. Ngừng xử lý dữ liệu cá nhân của trẻ em, xóa không thể khôi phục hoặc hủy dữ liệu cá nhân của trẻ em trong trường hợp:\na) Xử lý dữ liệu không đúng mục đích hoặc đã hoàn thành mục đích xử lý dữ liệu cá nhân được chủ thể dữ liệu đồng ý, trừ trường hợp pháp luật có quy định khác;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 16,
+              "page_end": 17,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 17,
+                "pages": "16,17",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.032266,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 0.031319,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q15",
+          "question": "Văn bản này có hiệu lực thi hành từ ngày nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.031746,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q16",
+          "question": "Văn bản này có hiệu lực thi hành từ ngày nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a038:000",
+              "text": "Chương V – ĐIỀU KHOẢN THI HÀNH\nĐiều 38. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\n2. Doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp được quyền lựa chọn thực hiện hoặc không thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này trong thời gian 05 năm kể từ ngày Luật này có hiệu lực thi hành, trừ doanh nghiệp nhỏ, doanh nghiệp khởi nghiệp kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n3. Hộ kinh doanh, doanh nghiệp siêu nhỏ không phải thực hiện quy định tại Điều 21, Điều 22 và khoản 2 Điều 33 của Luật này, trừ hộ kinh doanh, doanh nghiệp siêu nhỏ kinh doanh dịch vụ xử lý dữ liệu cá nhân, trực tiếp xử lý dữ liệu cá nhân nhạy cảm hoặc xử lý dữ liệu cá nhân của số lượng lớn chủ thể dữ liệu cá nhân.\n4. Chính phủ quy định chi tiết khoản 2 và khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 38,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a043:000",
+              "text": "Chương IV – ĐIỀU KHOẢN THI HÀNH\nĐiều 43. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.\n2. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp được quyền lựa chọn miễn trừ quy định về chỉ định cá nhân và bộ phận bảo vệ dữ liệu cá nhân trong thời gian 02 năm đầu kể từ khi thành lập doanh nghiệp.\n3. Các doanh nghiệp siêu nhỏ, doanh nghiệp nhỏ, doanh nghiệp vừa, doanh nghiệp khởi nghiệp trực tiếp kinh doanh hoạt động xử lý dữ liệu cá nhân không áp dụng quy định tại khoản 2 Điều này.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 29,
+              "page_end": 29,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "IV",
+                "page_end": 29,
+                "pages": "29",
+                "article": 43,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.031746,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a043:000"
+          ],
+          "context_chars": 618,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": true
+        }
+      ]
+    }
+  }
+}

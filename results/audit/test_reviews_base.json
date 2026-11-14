@@ -1,0 +1,37 @@
+[
+  {
+    "query_id": "q03",
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "query_id": "u03",
+    "abstention_correct": true,
+    "citation_support": []
+  },
+  {
+    "query_id": "u04",
+    "abstention_correct": true,
+    "citation_support": []
+  }
+]

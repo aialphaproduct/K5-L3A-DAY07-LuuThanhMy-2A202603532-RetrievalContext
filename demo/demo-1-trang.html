@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo Day 7 - 1 trang</title>
+<style>
+@page{size:A4;margin:0}
+:root{--ink:#1a1a1a;--muted:#5f6670;--green:#1a9a55;--blue:#2b6cb0;--card:#f3f3f3;--line:#dcdcdc;
+--ok:#0f6e56;--ok-bg:#e1f5ee;--warn:#9a5b0b;--warn-bg:#faeeda;--bad:#a32d2d;--bad-bg:#fcebeb}
+*{box-sizing:border-box}
+html{background:#e9ebee}
+body{margin:0;color:var(--ink);font:14px/1.45 "Segoe UI",system-ui,Arial,sans-serif}
+.page{width:794px;height:1123px;overflow:hidden;margin:0 auto;background:#fff;padding:26px 34px 18px}
+@media print{html{background:#fff}.page{margin:0}}
+h1{font-size:24px;line-height:1.2;margin:0 0 2px;font-weight:800}
+h1 em{font-style:normal;color:var(--green)}
+.sub{color:var(--blue);font-size:13px;margin:0 0 12px}
+.box{background:var(--card);border-radius:14px;padding:10px 14px 10px}
+.lab{font-weight:800;font-size:15px;margin:0 0 6px}
+.lab small{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
+.box img{display:block;width:100%;height:auto;border-radius:10px;background:#fff}
+.cap{color:var(--muted);font-size:12px;margin:6px 2px 0}
+h2{font-size:15px;margin:12px 0 6px;font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.c{background:#fff;border:1px solid var(--line);border-radius:12px;padding:11px 12px;display:flex;flex-direction:column;gap:7px}
+.c .t{display:flex;align-items:center;gap:7px;font-weight:800;font-size:13px}
+.n{width:22px;height:22px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:12px;flex:none}
+.tag{border-radius:999px;padding:0 8px;font-size:11px;font-weight:700;margin-left:auto;white-space:nowrap}
+.ok .tag{background:var(--ok-bg);color:var(--ok)}.warn .tag{background:var(--warn-bg);color:var(--warn)}.bad .tag{background:var(--bad-bg);color:var(--bad)}
+.q{font-size:12.5px;font-style:italic;color:#333}
+.flow{display:flex;flex-direction:column;gap:4px}
+.s{background:var(--card);border-radius:8px;padding:5px 8px;font-size:12px}
+.s b{display:block;font-size:11px;color:var(--muted);font-weight:600}
+.ar{text-align:center;color:#999;font-size:11px;line-height:1}
+.res{border-radius:8px;padding:6px 8px;font-size:12px;font-weight:700}
+.ok .res{background:var(--ok-bg);color:var(--ok)}.warn .res{background:var(--warn-bg);color:var(--warn)}.bad .res{background:var(--bad-bg);color:var(--bad)}
+.say{font-size:12px;color:var(--muted);border-top:1px dashed var(--line);padding-top:6px;margin-top:auto}
+.say b{color:var(--ink)}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}
+.k{background:var(--card);border-radius:12px;padding:9px 12px}
+.k strong{display:block;font-size:19px;line-height:1.15}.k strong i{font-style:normal;color:var(--green)}
+.k span{font-size:11.5px;color:var(--muted)}
+.foot{margin-top:8px;font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;gap:10px}
+code{background:#eef0f3;border-radius:4px;padding:0 5px}
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Demo: hệ thống <em>vận hành</em> thế nào?</h1>
+  <p class="sub">Một câu hỏi đi qua 5 bước — xem 3 ca thật từ tập test: đúng · từ chối · sai</p>
+
+  <div class="box">
+    <p class="lab">Bức tranh tổng <small>nói theo thứ tự trên → dưới, trái → phải</small></p>
+    <img src="../assets/day7-end-to-end.svg" alt="Sơ đồ từ dữ liệu đến câu trả lời: kho tài liệu Day 6 và hỏi đáp có agent Day 7">
+    <p class="cap">Kho (Day 6) → agent tìm 2 cách, trộn hạng → ghép ngữ cảnh → kiểm nguồn → <b>trả lời có nguồn</b> hoặc <b>từ chối</b>.</p>
+  </div>
+
+  <h2>3 ca chạy thật — mỗi ca chỉ cần một câu để nói</h2>
+  <div class="grid">
+    <div class="c ok">
+      <div class="t"><span class="n">1</span>Có bằng chứng<span class="tag">đúng</span></div>
+      <div class="q">q14 · “Trước khi xử lý dữ liệu trẻ nhỏ phải kiểm tra gì?”</div>
+      <div class="flow">
+        <div class="s"><b>Tìm 2 lần</b>cùng ra Điều 20 NĐ 13</div><div class="ar">▼</div>
+        <div class="s"><b>Ngữ cảnh</b>2 đoạn · 1379 / 2400 ký tự</div><div class="ar">▼</div>
+        <div class="res">Phải xác minh tuổi trẻ em [a020:000]</div>
+      </div>
+      <div class="say"><b>Nói:</b> bấm vào nguồn là thấy đúng đoạn luật.</div>
+    </div>
+    <div class="c warn">
+      <div class="t"><span class="n">2</span>Thiếu bằng chứng<span class="tag">từ chối</span></div>
+      <div class="q">u03 · “Thủ tục đăng ký kết hôn cần giấy tờ gì?”</div>
+      <div class="flow">
+        <div class="s"><b>Tìm 2 lần</b>toàn mẫu biểu không liên quan</div><div class="ar">▼</div>
+        <div class="s"><b>Ngữ cảnh</b>2 đoạn · 2012 / 2400 ký tự</div><div class="ar">▼</div>
+        <div class="res">Từ chối, không dẫn nguồn</div>
+      </div>
+      <div class="say"><b>Nói:</b> ngoài tài liệu thì nói “không đủ”, không suy diễn.</div>
+    </div>
+    <div class="c bad">
+      <div class="t"><span class="n">3</span>Có lỗi<span class="tag">sai</span></div>
+      <div class="q">q16 · “Văn bản này có hiệu lực từ ngày nào?”</div>
+      <div class="flow">
+        <div class="s"><b>Lượt 2</b>tìm đúng đoạn Nghị định (hạng 2)</div><div class="ar">▼</div>
+        <div class="s"><b>Ngữ cảnh</b>đã đầy 2207 / 2400 → đoạn đúng bị bỏ</div><div class="ar">▼</div>
+        <div class="res">Trả 01/01/2026 (đúng: 01/7/2023)</div>
+      </div>
+      <div class="say"><b>Nói:</b> lỗi ở ghép ngữ cảnh. Sửa: xếp theo điểm.</div>
+    </div>
+  </div>
+
+  <div class="nums">
+    <div class="k"><strong>4/15 → <i>12/15</i></strong><span>câu có evidence trong ngữ cảnh khi tăng budget 800 → 2400 (dev)</span></div>
+    <div class="k"><strong>0,00 → <i>1,60</i></strong><span>điểm grounded /2, baseline → cấu hình chọn (test)</span></div>
+    <div class="k"><strong>12 → <i>13</i> /15</strong><span>Hit@3: dense → hybrid RRF (dev)</span></div>
+  </div>
+
+  <div class="foot">
+    <span>Mở demo: <code>python demo/server.py</code> → <code>http://127.0.0.1:8770</code></span>
+    <span>Kịch bản chi tiết: <code>DEMO.md</code></span>
+  </div>
+</div>
+</body>
+</html>

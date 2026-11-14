@@ -1,0 +1,760 @@
+[
+  {
+    "query_id": "q03",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Các lần tìm kiếm về chuyển dữ liệu cá nhân xuyên biên giới và xử phạt vi phạm bảo vệ dữ liệu cá nhân không trả về đoạn nào liên quan, và hệ thống đã hết lượt tìm kiếm. Vì vậy tôi không xác định được mức phạt tiền tối đa đối với tổ chức vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới, cũng như các trường hợp không tính theo doanh thu. Bạn có thể thử lại với cách diễn đạt khác hoặc cung cấp đúng điều khoản (ví dụ điều về xử phạt trong Luật số 91/2025/QH15 hoặc Nghị định 13/2023/NĐ-CP).",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "phạt tiền vi phạm chuyển dữ liệu cá nhân ra nước ngoài tối đa",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a008:001",
+            "rank": 1,
+            "score": 0.92525,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 6,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a025:003",
+            "rank": 2,
+            "score": 0.899623,
+            "source_id": "nd-13-2023",
+            "page": 22,
+            "page_end": 22,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a008:000",
+            "rank": 3,
+            "score": 0.898022,
+            "source_id": "luat-91-2025",
+            "page": 5,
+            "page_end": 6,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "mức phạt tiền bằng 5% doanh thu năm trước chuyển dữ liệu xuyên biên giới",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a008:001",
+            "rank": 1,
+            "score": 0.91915,
+            "source_id": "luat-91-2025",
+            "page": 6,
+            "page_end": 6,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a020:001",
+            "rank": 2,
+            "score": 0.885044,
+            "source_id": "luat-91-2025",
+            "page": 13,
+            "page_end": 13,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a025:003",
+            "rank": 3,
+            "score": 0.875019,
+            "source_id": "nd-13-2023",
+            "page": 22,
+            "page_end": 22,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3929,
+      "output_tokens": 754
+    },
+    "elapsed_ms": 5314.4,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  },
+  {
+    "query_id": "q06",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Tài liệu được tìm thấy không quy định Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân được cập nhật định kỳ bao lâu một lần. Theo Nghị định 13/2023/NĐ-CP, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân phải cập nhật, bổ sung Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) theo Mẫu số 05 [nd-13-2023:struct1000:a024:003]. Tuy nhiên, việc cập nhật này được kích hoạt theo thay đổi nội dung, không phải theo chu kỳ thời gian. Tôi chưa tìm thấy quy định nào trong Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 về chu kỳ cập nhật định kỳ.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "hồ sơ đánh giá tác động xử lý dữ liệu cá nhân cập nhật định kỳ",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a022:000",
+            "rank": 1,
+            "score": 0.930058,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a024:003",
+            "rank": 2,
+            "score": 0.91978,
+            "source_id": "nd-13-2023",
+            "page": 20,
+            "page_end": 21,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a024:000",
+            "rank": 3,
+            "score": 0.915153,
+            "source_id": "nd-13-2023",
+            "page": 19,
+            "page_end": 19,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a024:003"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "đánh giá tác động xử lý dữ liệu cá nhân thời hạn cập nhật 6 tháng",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a022:000",
+            "rank": 1,
+            "score": 0.919325,
+            "source_id": "luat-91-2025",
+            "page": 14,
+            "page_end": 14,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a021:000",
+            "rank": 2,
+            "score": 0.915497,
+            "source_id": "luat-91-2025",
+            "page": 13,
+            "page_end": 14,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a024:000",
+            "rank": 3,
+            "score": 0.90531,
+            "source_id": "nd-13-2023",
+            "page": 19,
+            "page_end": 19,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a024:003"
+        ],
+        "context_chars": 757
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 5600,
+      "output_tokens": 848
+    },
+    "elapsed_ms": 4961.0,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  },
+  {
+    "query_id": "q14",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu đã tìm được để trả lời. Các kết quả tìm kiếm chỉ cho thấy một phần Điều 20 Nghị định 13/2023/NĐ-CP về xử lý dữ liệu cá nhân của trẻ em, liên quan đến các trường hợp phải dừng xử lý, chẳng hạn khi cha, mẹ hoặc người giám hộ rút lại sự đồng ý, hoặc theo yêu cầu của cơ quan có thẩm quyền khi có căn cứ chứng minh việc xử lý gây ảnh hưởng tới quyền và lợi ích hợp pháp của trẻ em [nd-13-2023:struct1000:a020:001]. Phần quy định về nghĩa vụ kiểm tra trước khi xử lý dữ liệu của trẻ em chưa được truy xuất, nên không thể xác định chính xác doanh nghiệp phải kiểm tra điều gì. Bạn nên tra cứu trực tiếp khoản đầu của Điều 20 Nghị định 13/2023/NĐ-CP hoặc các quy định tương ứng trong Luật 91/2025/QH15.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "xử lý dữ liệu cá nhân của trẻ em bắt buộc kiểm tra tuổi trước khi xử lý",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a020:000",
+            "rank": 1,
+            "score": 0.918587,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 17,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a024:000",
+            "rank": 2,
+            "score": 0.905143,
+            "source_id": "luat-91-2025",
+            "page": 15,
+            "page_end": 16,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a020:001",
+            "rank": 3,
+            "score": 0.8964,
+            "source_id": "nd-13-2023",
+            "page": 17,
+            "page_end": 17,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a020:001"
+        ],
+        "context_chars": 461
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Nghị định 13/2023 dữ liệu trẻ em kiểm tra độ tuổi",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:a020:000",
+            "rank": 1,
+            "score": 0.903057,
+            "source_id": "nd-13-2023",
+            "page": 16,
+            "page_end": 17,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a039:000",
+            "rank": 2,
+            "score": 0.897789,
+            "source_id": "luat-91-2025",
+            "page": 25,
+            "page_end": 25,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a024:000",
+            "rank": 3,
+            "score": 0.888582,
+            "source_id": "luat-91-2025",
+            "page": 15,
+            "page_end": 16,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:a020:001"
+        ],
+        "context_chars": 461
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4998,
+      "output_tokens": 1063
+    },
+    "elapsed_ms": 6599.4,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  },
+  {
+    "query_id": "q15",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Tài liệu được tìm thấy không cho biết ngày có hiệu lực thi hành. Kết quả tìm kiếm chỉ có phần mở đầu của Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 [luat-91-2025:struct1000:a000:000], trong đó có căn cứ Hiến pháp và việc Quốc hội ban hành luật, nhưng không có điều khoản về hiệu lực. Tôi cũng không tìm thấy nội dung nào của Nghị định 13/2023/NĐ-CP trong kết quả tìm kiếm. Vì vậy tôi không thể xác định ngày có hiệu lực của cả hai văn bản từ tài liệu hiện có. Bạn có thể cung cấp đoạn văn về điều khoản hiệu lực thi hành (thường nằm ở điều cuối cùng của văn bản) để tôi kiểm tra lại.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 có hiệu lực thi hành từ ngày",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a000:000",
+            "rank": 1,
+            "score": 0.905559,
+            "source_id": "luat-91-2025",
+            "page": 1,
+            "page_end": 1,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a005:000",
+            "rank": 2,
+            "score": 0.904028,
+            "source_id": "luat-91-2025",
+            "page": 4,
+            "page_end": 4,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 3,
+            "score": 0.895782,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a000:000"
+        ],
+        "context_chars": 358
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Nghị định 13/2023/NĐ-CP bảo vệ dữ liệu cá nhân có hiệu lực thi hành từ ngày",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a039:000",
+            "rank": 1,
+            "score": 0.920495,
+            "source_id": "luat-91-2025",
+            "page": 25,
+            "page_end": 25,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a043:000",
+            "rank": 2,
+            "score": 0.911203,
+            "source_id": "nd-13-2023",
+            "page": 29,
+            "page_end": 29,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 3,
+            "score": 0.905185,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a000:000"
+        ],
+        "context_chars": 358
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4961,
+      "output_tokens": 1033
+    },
+    "elapsed_ms": 7480.5,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  },
+  {
+    "query_id": "q16",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Tôi chưa tìm thấy thông tin về ngày có hiệu lực thi hành trong các đoạn văn bản đã truy xuất, nên không đủ thông tin trong tài liệu để trả lời.\n\nNhững gì tìm được: đoạn đầu của Luật số 91/2025/QH15 (Luật Bảo vệ dữ liệu cá nhân) [luat-91-2025:struct1000:a000:000]. Đoạn này chỉ có phần tiêu đề, căn cứ ban hành và thông tin Quốc hội ban hành luật, không có điều khoản về hiệu lực.\n\nTôi không tìm thấy nội dung nào về Nghị định 13/2023/NĐ-CP trong kết quả tìm kiếm, nên cũng không thể xác định ngày có hiệu lực của nghị định này.\n\nBạn có thể cung cấp thêm phần điều khoản cuối cùng (điều về hiệu lực thi hành và trách nhiệm thi hành) của từng văn bản để tôi kiểm tra lại.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Luật Bảo vệ dữ liệu cá nhân 91/2025/QH15 hiệu lực thi hành",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a000:000",
+            "rank": 1,
+            "score": 0.906704,
+            "source_id": "luat-91-2025",
+            "page": 1,
+            "page_end": 1,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a005:000",
+            "rank": 2,
+            "score": 0.905197,
+            "source_id": "luat-91-2025",
+            "page": 4,
+            "page_end": 4,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 3,
+            "score": 0.901523,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a000:000"
+        ],
+        "context_chars": 358
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Nghị định 13/2023/NĐ-CP bảo vệ dữ liệu cá nhân hiệu lực thi hành",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a039:000",
+            "rank": 1,
+            "score": 0.91948,
+            "source_id": "luat-91-2025",
+            "page": 25,
+            "page_end": 25,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a038:000",
+            "rank": 2,
+            "score": 0.909509,
+            "source_id": "luat-91-2025",
+            "page": 24,
+            "page_end": 25,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:a043:000",
+            "rank": 3,
+            "score": 0.908623,
+            "source_id": "nd-13-2023",
+            "page": 29,
+            "page_end": 29,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a000:000"
+        ],
+        "context_chars": 358
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "search_limit"
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4933,
+      "output_tokens": 1024
+    },
+    "elapsed_ms": 7410.2,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  },
+  {
+    "query_id": "u03",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Hai văn bản được cung cấp là Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 13/2023/NĐ-CP, trong đó không có quy định về thủ tục đăng ký kết hôn hay danh mục giấy tờ cần nộp. Kết quả tìm kiếm chỉ trả về biểu mẫu yêu cầu cung cấp thông tin dữ liệu cá nhân [nd-13-2023:struct1000:p031:002], không liên quan đến đăng ký kết hôn. Bạn nên tham khảo Luật Hộ tịch hoặc các văn bản hướng dẫn về hộ tịch, hoặc liên hệ UBND cấp xã/phường nơi đăng ký.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "thủ tục đăng ký kết hôn giấy tờ cần nộp",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:p031:002",
+            "rank": 1,
+            "score": 0.865894,
+            "source_id": "nd-13-2023",
+            "page": 31,
+            "page_end": 31,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p032:002",
+            "rank": 2,
+            "score": 0.851408,
+            "source_id": "nd-13-2023",
+            "page": 32,
+            "page_end": 32,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p032:001",
+            "rank": 3,
+            "score": 0.849158,
+            "source_id": "nd-13-2023",
+            "page": 32,
+            "page_end": 32,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:p031:002"
+        ],
+        "context_chars": 777
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "đăng ký kết hôn hồ sơ tờ khai giấy tờ tùy thân",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:p031:002",
+            "rank": 1,
+            "score": 0.872666,
+            "source_id": "nd-13-2023",
+            "page": 31,
+            "page_end": 31,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p032:002",
+            "rank": 2,
+            "score": 0.859988,
+            "source_id": "nd-13-2023",
+            "page": 32,
+            "page_end": 32,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p036:002",
+            "rank": 3,
+            "score": 0.853184,
+            "source_id": "nd-13-2023",
+            "page": 36,
+            "page_end": 36,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "nd-13-2023:struct1000:p031:002"
+        ],
+        "context_chars": 777
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4428,
+      "output_tokens": 618
+    },
+    "elapsed_ms": 5318.2,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  },
+  {
+    "query_id": "u04",
+    "config": "base",
+    "status": "abstain",
+    "answer": "Không đủ thông tin trong tài liệu để trả lời. Hai văn bản được cung cấp là Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 13/2023/NĐ-CP; kết quả tìm kiếm chỉ cho thấy Điều 34 của Luật về tiêu chuẩn, quy chuẩn kỹ thuật bảo vệ dữ liệu cá nhân [luat-91-2025:struct1000:a034:000], không đề cập đến khí thải xe máy hay tiêu chuẩn đo khí thải.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "đo khí thải xe máy tiêu chuẩn",
+        "filter": null,
+        "results": [
+          {
+            "id": "luat-91-2025:struct1000:a034:000",
+            "rank": 1,
+            "score": 0.828229,
+            "source_id": "luat-91-2025",
+            "page": 22,
+            "page_end": 22,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a030:000",
+            "rank": 2,
+            "score": 0.818511,
+            "source_id": "luat-91-2025",
+            "page": 20,
+            "page_end": 20,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a031:000",
+            "rank": 3,
+            "score": 0.815085,
+            "source_id": "luat-91-2025",
+            "page": 20,
+            "page_end": 21,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a034:000"
+        ],
+        "context_chars": 695
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "khí thải xe mô tô xe gắn máy phương pháp đo",
+        "filter": null,
+        "results": [
+          {
+            "id": "nd-13-2023:struct1000:p035:000",
+            "rank": 1,
+            "score": 0.821484,
+            "source_id": "nd-13-2023",
+            "page": 35,
+            "page_end": 35,
+            "method": "dense"
+          },
+          {
+            "id": "luat-91-2025:struct1000:a030:000",
+            "rank": 2,
+            "score": 0.817503,
+            "source_id": "luat-91-2025",
+            "page": 20,
+            "page_end": 20,
+            "method": "dense"
+          },
+          {
+            "id": "nd-13-2023:struct1000:p036:000",
+            "rank": 3,
+            "score": 0.816754,
+            "source_id": "nd-13-2023",
+            "page": 36,
+            "page_end": 36,
+            "method": "dense"
+          }
+        ],
+        "context_ids": [
+          "luat-91-2025:struct1000:a034:000"
+        ],
+        "context_chars": 695
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 4514,
+      "output_tokens": 461
+    },
+    "elapsed_ms": 3785.6,
+    "error": null,
+    "settings": {
+      "retriever": "dense",
+      "budget": 800,
+      "top_k": 3,
+      "max_searches": 2,
+      "use_filter": false
+    },
+    "split": "test"
+  }
+]

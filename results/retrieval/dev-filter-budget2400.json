@@ -1,0 +1,1326 @@
+{
+  "split": "dev",
+  "budget_chars": 2400,
+  "filter_inferred": true,
+  "methods": {
+    "hybrid_rrf": {
+      "summary": {
+        "n_answerable": 15,
+        "hit1": 9,
+        "evidence_hit3": 13,
+        "context_evidence_rate": 12,
+        "median_ms": 40.0,
+        "service_cost_usd": 0.0
+      },
+      "traces": [
+        {
+          "query_id": "q01",
+          "question": "Mức phạt tiền tối đa đối với hành vi mua, bán dữ liệu cá nhân được tính như thế nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a008:000",
+              "text": "Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân\n1. Tổ chức, cá nhân có hành vi vi phạm quy định của Luật này và quy định khác của pháp luật có liên quan đến bảo vệ dữ liệu cá nhân thì tùy theo tính chất, mức độ, hậu quả của hành vi vi phạm có thể bị xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.\n2. Việc xử phạt vi phạm hành chính trong lĩnh vực bảo vệ dữ liệu cá nhân thực hiện theo quy định tại các khoản 3, 4, 5, 6 và 7 Điều này và pháp luật về xử lý vi phạm hành chính.\n3. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với hành vi mua, bán dữ liệu cá nhân là 10 lần khoản thu có được từ hành vi vi phạm; trường hợp không có khoản thu từ hành vi vi phạm hoặc mức phạt tính theo khoản thu có được từ hành vi vi phạm thấp hơn mức phạt tiền tối đa quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 5,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "5,6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a008:001",
+              "text": "[Điều 8. Xử lý vi phạm pháp luật về bảo vệ dữ liệu cá nhân (tiếp)]\n4. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với tổ chức có hành vi vi phạm quy định chuyển dữ liệu cá nhân xuyên biên giới là 5% doanh thu của năm trước liền kề của tổ chức đó; trường hợp không có doanh thu của năm trước liền kề hoặc mức phạt tính theo doanh thu thấp hơn mức phạt tiền tối đa theo quy định tại khoản 5 Điều này thì áp dụng mức phạt tiền theo quy định tại khoản 5 Điều này.\n5. Mức phạt tiền tối đa trong xử phạt vi phạm hành chính đối với các hành vi vi phạm khác trong lĩnh vực bảo vệ dữ liệu cá nhân là 03 tỷ đồng.\n6. Mức phạt tiền tối đa quy định tại các khoản 3, 4 và 5 Điều này được áp dụng đối với tổ chức; cá nhân thực hiện cùng hành vi vi phạm thì mức phạt tiền tối đa bằng một phần hai mức phạt tiền đối với tổ chức.\n7. Chính phủ quy định phương pháp tính khoản thu có được từ việc thực hiện hành vi vi phạm pháp luật về bảo vệ dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 6,
+              "page_end": 6,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 6,
+                "pages": "6",
+                "article": 8,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a022:000",
+              "text": "Điều 22. Thu thập, chuyển giao, mua, bán trái phép dữ liệu cá nhân\n1. Tổ chức, cá nhân có liên quan tới xử lý dữ liệu cá nhân phải áp dụng các biện pháp bảo vệ dữ liệu cá nhân để ngăn chặn tình trạng thu thập dữ liệu cá nhân trái phép từ hệ thống, trang thiết bị dịch vụ của mình.\n2. Việc thiết lập các hệ thống phần mềm, biện pháp kỹ thuật hoặc tổ chức các hoạt động thu thập, chuyển giao, mua, bán dữ liệu cá nhân không có sự đồng ý của chủ thể dữ liệu là vi phạm pháp luật.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 17,
+              "page_end": 18,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 18,
+                "pages": "17,18",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 0.031498,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a008:000",
+            "luat-91-2025:struct1000:a008:001"
+          ],
+          "context_chars": 2018,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q02",
+          "question": "Nếu người dùng không trả lời đề nghị xin phép xử lý dữ liệu thì có được xem là họ đã chấp thuận không?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a016:000",
+              "text": "Điều 16. Lưu trữ, xóa, hủy dữ liệu cá nhân\n1. Chủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xóa dữ liệu cá nhân của mình trong các trường hợp sau:\na) Nhận thấy không còn cần thiết cho mục đích thu thập đã đồng ý và chấp nhận các thiệt hại có thể xảy ra khi yêu cầu xóa dữ liệu;\nb) Rút lại sự đồng ý;\nc) Phản đối việc xử lý dữ liệu và Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân không có lý do chính đáng để tiếp tục xử lý;\nd) Dữ liệu cá nhân được xử lý không đúng với mục đích đã đồng ý hoặc việc xử lý dữ liệu cá nhân là vi phạm quy định của pháp luật;\nđ) Dữ liệu cá nhân phải xóa theo quy định của pháp luật.\n2. Việc xóa dữ liệu sẽ không áp dụng khi có đề nghị của chủ thể dữ liệu trong các trường hợp:\na) Pháp luật quy định không cho phép xóa dữ liệu;\nb) Dữ liệu cá nhân được xử lý bởi cơ quan nhà nước có thẩm quyền với mục đích phục vụ hoạt động của cơ quan nhà nước theo quy định của pháp luật;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 16,
+                "chunking": "structure"
+              },
+              "score": 0.031258,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a011:001",
+              "text": "[Điều 11. Sự đồng ý của chủ thể dữ liệu (tiếp)]\n5. Sự đồng ý của chủ thể dữ liệu phải được thể hiện ở một định dạng có thể được in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n6. Sự im lặng hoặc không phản hồi của chủ thể dữ liệu không được coi là sự đồng ý.\n7. Chủ thể dữ liệu có thể đồng ý một phần hoặc với điều kiện kèm theo.\n8. Đối với xử lý dữ liệu cá nhân nhạy cảm, chủ thể dữ liệu phải được thông báo rằng dữ liệu cần xử lý là dữ liệu cá nhân nhạy cảm.\n9. Sự đồng ý của chủ thể dữ liệu có hiệu lực cho tới khi chủ thể dữ liệu có quyết định khác hoặc khi cơ quan nhà nước có thẩm quyền yêu cầu bằng văn bản.\n10. Trong trường hợp có tranh chấp, trách nhiệm chứng minh sự đồng ý của chủ thể dữ liệu thuộc về Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 10,
+              "page_end": 10,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 10,
+                "pages": "10",
+                "article": 11,
+                "chunking": "structure"
+              },
+              "score": 0.02971,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.029462,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a016:000",
+            "nd-13-2023:struct1000:a011:001"
+          ],
+          "context_chars": 1924,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q04",
+          "question": "Dữ liệu đã được xử lý để không còn nhận ra danh tính của ai thì có còn được coi là dữ liệu cá nhân nữa không?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a002:000",
+              "text": "Điều 2. Giải thích từ ngữ\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. Dữ liệu cá nhân là dữ liệu số hoặc thông tin dưới dạng khác xác định hoặc giúp xác định một con người cụ thể, bao gồm: dữ liệu cá nhân cơ bản và dữ liệu cá nhân nhạy cảm. Dữ liệu cá nhân sau khi khử nhận dạng không còn là dữ liệu cá nhân.\n2. Dữ liệu cá nhân cơ bản là dữ liệu cá nhân phản ánh các yếu tố nhân thân, lai lịch phổ biến, thường xuyên sử dụng trong các giao dịch, quan hệ xã hội, thuộc danh mục do Chính phủ ban hành.\n3. Dữ liệu cá nhân nhạy cảm là dữ liệu cá nhân gắn liền với quyền riêng tư của cá nhân, khi bị xâm phạm sẽ gây ảnh hưởng trực tiếp đến quyền, lợi ích hợp pháp của cơ quan, tổ chức, cá nhân, thuộc danh mục do Chính phủ ban hành.\n4. Bảo vệ dữ liệu cá nhân là việc cơ quan, tổ chức, cá nhân sử dụng lực lượng, phương tiện, biện pháp để phòng, chống hoạt động xâm phạm dữ liệu cá nhân.\n5. Chủ thể dữ liệu cá nhân là người được dữ liệu cá nhân phản ánh.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 1,
+              "page_end": 2,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 2,
+                "pages": "1,2",
+                "article": 2,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "nd-13-2023:struct1000:a016:000",
+              "text": "Điều 16. Lưu trữ, xóa, hủy dữ liệu cá nhân\n1. Chủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xóa dữ liệu cá nhân của mình trong các trường hợp sau:\na) Nhận thấy không còn cần thiết cho mục đích thu thập đã đồng ý và chấp nhận các thiệt hại có thể xảy ra khi yêu cầu xóa dữ liệu;\nb) Rút lại sự đồng ý;\nc) Phản đối việc xử lý dữ liệu và Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân không có lý do chính đáng để tiếp tục xử lý;\nd) Dữ liệu cá nhân được xử lý không đúng với mục đích đã đồng ý hoặc việc xử lý dữ liệu cá nhân là vi phạm quy định của pháp luật;\nđ) Dữ liệu cá nhân phải xóa theo quy định của pháp luật.\n2. Việc xóa dữ liệu sẽ không áp dụng khi có đề nghị của chủ thể dữ liệu trong các trường hợp:\na) Pháp luật quy định không cho phép xóa dữ liệu;\nb) Dữ liệu cá nhân được xử lý bởi cơ quan nhà nước có thẩm quyền với mục đích phục vụ hoạt động của cơ quan nhà nước theo quy định của pháp luật;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 16,
+                "chunking": "structure"
+              },
+              "score": 0.031099,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a016:002",
+              "text": "[Điều 16. Lưu trữ, xóa, hủy dữ liệu cá nhân (tiếp)]\n5. Việc xóa dữ liệu được thực hiện trong 72 giờ sau khi có yêu cầu của chủ thể dữ liệu với toàn bộ dữ liệu cá nhân mà Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thu thập được, trừ trường hợp pháp luật có quy định khác.\n6. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên thứ ba lưu trữ dữ liệu cá nhân theo hình thức phù hợp với hoạt động của mình và có biện pháp bảo vệ dữ liệu cá nhân theo quy định của pháp luật.\n7. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên thứ ba xóa không thể khôi phục trong trường hợp:\na) Xử lý dữ liệu không đúng mục đích hoặc đã hoàn thành mục đích xử lý dữ liệu cá nhân được chủ thể dữ liệu đồng ý;\nb) Việc lưu trữ dữ liệu cá nhân không còn cần thiết với hoạt động của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân, Bên Xử lý dữ liệu cá nhân, Bên thứ ba;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 15,
+              "page_end": 15,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 15,
+                "pages": "15",
+                "article": 16,
+                "chunking": "structure"
+              },
+              "score": 0.02904,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a002:000",
+            "nd-13-2023:struct1000:a016:000"
+          ],
+          "context_chars": 2065,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q05",
+          "question": "Công ty lưu dữ liệu của chính nhân viên mình trên dịch vụ đám mây thì có phải làm đánh giá tác động chuyển dữ liệu xuyên biên giới không?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a020:002",
+              "text": "[Điều 20. Chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\nb) Cơ quan, tổ chức lưu trữ dữ liệu cá nhân của người lao động thuộc cơ quan, tổ chức đó trên dịch vụ điện toán đám mây;\nc) Chủ thể dữ liệu cá nhân tự chuyển dữ liệu cá nhân của mình xuyên biên giới;\nd) Các trường hợp khác theo quy định của Chính phủ.\n7. Chính phủ quy định chi tiết các khoản 1, 5 và 6 Điều này; quy định thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 13,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 13,
+                "pages": "13",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a005:001",
+              "text": "[Điều 5. Áp dụng pháp luật về bảo vệ dữ liệu cá nhân (tiếp)]\n4. Trường hợp cơ quan, tổ chức, cá nhân thực hiện việc đánh giá tác động xử lý dữ liệu cá nhân, đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này thì không phải thực hiện đánh giá rủi ro xử lý dữ liệu cá nhân, đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của pháp luật về dữ liệu.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 4,
+              "page_end": 4,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "I",
+                "page_end": 4,
+                "pages": "4",
+                "article": 5,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a020:001",
+              "text": "[Điều 20. Chuyển dữ liệu cá nhân xuyên biên giới (tiếp)]\n3. Đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được thực hiện 01 lần cho suốt thời gian hoạt động của cơ quan, tổ chức, cá nhân đó và được cập nhật theo quy định tại Điều 22 của Luật này.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định việc kiểm tra chuyển dữ liệu cá nhân xuyên biên giới định kỳ không quá 01 lần trong năm hoặc kiểm tra đột xuất khi phát hiện hành vi vi phạm quy định của pháp luật về bảo vệ dữ liệu cá nhân hoặc khi xảy ra sự cố lộ, mất dữ liệu cá nhân.\n5. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân quyết định yêu cầu ngừng chuyển dữ liệu cá nhân xuyên biên giới của cơ quan, tổ chức, cá nhân khi phát hiện dữ liệu cá nhân được chuyển để sử dụng vào hoạt động có thể gây tổn hại đến quốc phòng, an ninh quốc gia.\n6. Các trường hợp không phải thực hiện quy định về đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới bao gồm:\na) Việc chuyển dữ liệu cá nhân xuyên biên giới của cơ quan nhà nước có thẩm quyền;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 13,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 13,
+                "pages": "13",
+                "article": 20,
+                "chunking": "structure"
+              },
+              "score": 0.031545,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a020:002",
+            "luat-91-2025:struct1000:a005:001",
+            "luat-91-2025:struct1000:a020:001"
+          ],
+          "context_chars": 2091,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q07",
+          "question": "Hộ kinh doanh có phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân không, và có ngoại lệ nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a021:001",
+              "text": "[Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân (tiếp)]\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân đánh giá, yêu cầu bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân hoàn thiện hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n5. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân cập nhật, bổ sung hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n6. Cơ quan nhà nước có thẩm quyền không phải thực hiện quy định về đánh giá tác động xử lý dữ liệu cá nhân quy định tại Điều này.\n7. Chính phủ quy định thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động xử lý dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 21,
+                "chunking": "structure"
+              },
+              "score": 0.031778,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a022:000",
+              "text": "Điều 22. Cập nhật hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới\n1. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới được cập nhật định kỳ 06 tháng khi có sự thay đổi hoặc cập nhật ngay trong các trường hợp quy định tại khoản 2 Điều này.\n2. Các trường hợp thay đổi cần cập nhật ngay bao gồm:\na) Khi cơ quan, tổ chức, đơn vị được tổ chức lại, chấm dứt hoạt động, giải thể, phá sản theo quy định của pháp luật;\nb) Khi có sự thay đổi thông tin về tổ chức, cá nhân cung cấp dịch vụ bảo vệ dữ liệu cá nhân;\nc) Khi phát sinh hoặc thay đổi ngành, nghề, dịch vụ kinh doanh liên quan đến xử lý dữ liệu cá nhân đã đăng ký trong hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 22,
+                "chunking": "structure"
+              },
+              "score": 0.031054,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.030886,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a021:001",
+            "luat-91-2025:struct1000:a022:000"
+          ],
+          "context_chars": 1812,
+          "hit1": false,
+          "hit3": false,
+          "context_hit": false
+        },
+        {
+          "query_id": "q08",
+          "question": "Nhà tuyển dụng phải làm gì với thông tin của ứng viên không trúng tuyển?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a025:000",
+              "text": "Điều 25. Bảo vệ dữ liệu cá nhân trong tuyển dụng, quản lý, sử dụng người lao động\n1. Trách nhiệm bảo vệ dữ liệu cá nhân của cơ quan, tổ chức, cá nhân trong tuyển dụng lao động được quy định như sau:\na) Chỉ được yêu cầu cung cấp các thông tin phục vụ cho mục đích tuyển dụng của cơ quan, tổ chức, cá nhân tuyển dụng phù hợp với quy định của pháp luật;\nthông tin được cung cấp chỉ được sử dụng vào mục đích tuyển dụng và mục đích khác theo thỏa thuận phù hợp với quy định của pháp luật;\nb) Thông tin cung cấp phải được xử lý theo quy định của pháp luật và phải được sự đồng ý của người dự tuyển;\nc) Phải xóa, hủy thông tin đã cung cấp của người dự tuyển trong trường hợp không tuyển dụng, trừ trường hợp có thỏa thuận khác với người đã dự tuyển;\n2. Trách nhiệm bảo vệ dữ liệu cá nhân của cơ quan, tổ chức, cá nhân trong quản lý, sử dụng người lao động được quy định như sau:",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 16,
+              "page_end": 16,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 16,
+                "pages": "16",
+                "article": 25,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a025:001",
+              "text": "[Điều 25. Bảo vệ dữ liệu cá nhân trong tuyển dụng, quản lý, sử dụng người lao động (tiếp)]\na) Tuân thủ quy định của Luật này, pháp luật về lao động, việc làm, pháp luật về dữ liệu và quy định khác của pháp luật có liên quan;\nb) Dữ liệu cá nhân của người lao động phải lưu trữ trong thời hạn theo quy định của pháp luật hoặc theo thỏa thuận;\nc) Phải xóa, hủy dữ liệu cá nhân của người lao động khi chấm dứt hợp đồng, trừ trường hợp theo thỏa thuận hoặc pháp luật có quy định khác.\n3. Việc xử lý dữ liệu cá nhân của người lao động được thu thập bằng biện pháp công nghệ, kỹ thuật trong quản lý người lao động được quy định như sau:\na) Chỉ được áp dụng các biện pháp công nghệ, kỹ thuật phù hợp với quy định của pháp luật và bảo đảm quyền, lợi ích của chủ thể dữ liệu cá nhân, trên cơ sở người lao động biết rõ biện pháp đó;\nb) Không được xử lý, sử dụng dữ liệu cá nhân thu thập từ các biện pháp công nghệ, kỹ thuật trái quy định của pháp luật.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 17,
+              "page_end": 17,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 17,
+                "pages": "17",
+                "article": 25,
+                "chunking": "structure"
+              },
+              "score": 0.032258,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a023:001",
+              "text": "[Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân (tiếp)]\nb) Chi tiết liên lạc của nhân viên được giao nhiệm vụ bảo vệ dữ liệu hoặc tổ chức, cá nhân chịu trách nhiệm bảo vệ dữ liệu cá nhân;\nc) Mô tả các hậu quả, thiệt hại có thể xảy ra của việc vi phạm quy định bảo vệ dữ liệu cá nhân;\nd) Mô tả các biện pháp được đưa ra để giải quyết, giảm thiểu tác hại của hành vi vi phạm quy định bảo vệ dữ liệu cá nhân.\n4. Trường hợp không thể thông báo đầy đủ các nội dung quy định tại khoản 3 Điều này, việc thông báo có thể được thực hiện theo từng đợt, từng giai đoạn.\n5. Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân phải lập Biên bản xác nhận về việc xảy ra hành vi vi phạm quy định bảo vệ dữ liệu cá nhân, phối hợp với Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) xử lý hành vi vi phạm.\n6. Tổ chức, cá nhân thông báo cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) khi phát hiện các trường hợp sau:\na) Phát hiện hành vi vi phạm pháp luật đối với dữ liệu cá nhân;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 18,
+              "page_end": 19,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 19,
+                "pages": "18,19",
+                "article": 23,
+                "chunking": "structure"
+              },
+              "score": 0.030366,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a025:000",
+            "luat-91-2025:struct1000:a025:001"
+          ],
+          "context_chars": 1943,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q09",
+          "question": "Nền tảng mạng xã hội có được nghe lén cuộc gọi hoặc đọc tin nhắn của người dùng không?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a029:000",
+              "text": "Điều 29. Bảo vệ dữ liệu cá nhân đối với các nền tảng mạng xã hội, dịch vụ truyền thông trực tuyến\nTổ chức, cá nhân cung cấp dịch vụ mạng xã hội, dịch vụ truyền thông trực tuyến có trách nhiệm sau đây:\n1. Thông báo rõ ràng nội dung dữ liệu cá nhân thu thập khi chủ thể dữ liệu cá nhân cài đặt và sử dụng mạng xã hội, dịch vụ truyền thông trực tuyến; không thu thập trái phép dữ liệu cá nhân và ngoài phạm vi theo thỏa thuận với khách hàng;\n2. Không được yêu cầu cung cấp hình ảnh, video chứa nội dung đầy đủ hoặc một phần giấy tờ tùy thân làm yếu tố xác thực tài khoản;\n3. Cung cấp lựa chọn cho phép người dùng từ chối thu thập và chia sẻ tệp dữ liệu (gọi là cookies);\n4. Cung cấp lựa chọn “không theo dõi” hoặc chỉ được theo dõi hoạt động sử dụng mạng xã hội, dịch vụ truyền thông trực tuyến khi có sự đồng ý của người sử dụng;\n5. Không nghe lén, nghe trộm hoặc ghi âm cuộc gọi và đọc tin nhắn văn bản khi không có sự đồng ý của chủ thể dữ liệu cá nhân, trừ trường hợp pháp luật có quy định khác;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 19,
+              "page_end": 19,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 19,
+                "pages": "19",
+                "article": 29,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a028:001",
+              "text": "[Điều 28. Bảo vệ dữ liệu cá nhân trong kinh doanh dịch vụ quảng cáo (tiếp)]\n4. Việc sử dụng dữ liệu cá nhân để quảng cáo phải phù hợp với quy định của pháp luật về phòng, chống tin nhắn rác, thư điện tử rác, cuộc gọi rác và quy định của pháp luật về quảng cáo.\n5. Chủ thể dữ liệu cá nhân có quyền yêu cầu ngừng nhận thông tin từ dịch vụ quảng cáo. Tổ chức, cá nhân kinh doanh dịch vụ quảng cáo phải cung cấp cơ chế và ngừng quảng cáo theo yêu cầu của chủ thể dữ liệu cá nhân.\n6. Tổ chức, cá nhân kinh doanh dịch vụ quảng cáo không được thuê lại hoặc thỏa thuận để tổ chức, cá nhân khác thay mặt mình thực hiện toàn bộ dịch vụ quảng cáo có sử dụng dữ liệu cá nhân.\n7. Tổ chức, cá nhân kinh doanh dịch vụ quảng cáo có trách nhiệm chứng minh việc sử dụng dữ liệu cá nhân của khách hàng để quảng cáo; tuân thủ quy định tại các khoản 1, 2, 3, 4 Điều này và quy định của pháp luật về quảng cáo.\n8. Tổ chức, cá nhân khi sử dụng dữ liệu cá nhân để quảng cáo theo hành vi hoặc có mục tiêu cụ thể hoặc cá nhân hóa quảng cáo phải tuân thủ quy định tại Điều này và các quy định sau đây:",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 18,
+              "page_end": 19,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 19,
+                "pages": "18,19",
+                "article": 28,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a029:001",
+              "text": "[Điều 29. Bảo vệ dữ liệu cá nhân đối với các nền tảng mạng xã hội, dịch vụ truyền thông trực tuyến (tiếp)]\n6. Công khai chính sách bảo mật, giải thích rõ cách thức thu thập, sử dụng và chia sẻ dữ liệu cá nhân; cung cấp cho người dùng cơ chế truy cập, chỉnh sửa, xóa dữ liệu và thiết lập quyền riêng tư cho dữ liệu cá nhân, báo cáo các vi phạm về bảo mật và quyền riêng tư; bảo vệ dữ liệu cá nhân của công dân Việt Nam khi chuyển dữ liệu xuyên biên giới; xây dựng quy trình xử lý vi phạm về bảo vệ dữ liệu cá nhân nhanh chóng và hiệu quả.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 19,
+              "page_end": 20,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 20,
+                "pages": "19,20",
+                "article": 29,
+                "chunking": "structure"
+              },
+              "score": 0.032002,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a029:000",
+            "luat-91-2025:struct1000:a028:001"
+          ],
+          "context_chars": 2200,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q10",
+          "question": "Hoạt động xử lý dữ liệu đã được chủ thể đồng ý theo quy định cũ thì có phải xin đồng ý lại khi luật mới có hiệu lực không?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a011:000",
+              "text": "Mục 2 – BẢO VỆ DỮ LIỆU CÁ NHÂN – TRONG QUÁ TRÌNH XỬ LÝ DỮ LIỆU CÁ NHÂN\nĐiều 11. Sự đồng ý của chủ thể dữ liệu\n1. Sự đồng ý của chủ thể dữ liệu được áp dụng đối với tất cả các hoạt động trong quy trình xử lý dữ liệu cá nhân, trừ trường hợp luật có quy định khác.\n2. Sự đồng ý của chủ thể dữ liệu chỉ có hiệu lực khi chủ thể dữ liệu tự nguyện và biết rõ các nội dung sau:\na) Loại dữ liệu cá nhân được xử lý;\nb) Mục đích xử lý dữ liệu cá nhân;\nc) Tổ chức, cá nhân được xử lý dữ liệu cá nhân;\nd) Các quyền, nghĩa vụ của chủ thể dữ liệu.\n3. Sự đồng ý của chủ thể dữ liệu phải được thể hiện rõ ràng, cụ thể bằng văn bản, giọng nói, đánh dấu vào ô đồng ý, cú pháp đồng ý qua tin nhắn, chọn các thiết lập kỹ thuật đồng ý hoặc qua một hành động khác thể hiện được điều này.\n4. Sự đồng ý phải được tiến hành cho cùng một mục đích. Khi có nhiều mục đích, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân liệt kê các mục đích để chủ thể dữ liệu đồng ý với một hoặc nhiều mục đích nêu ra.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 9,
+              "page_end": 10,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 10,
+                "pages": "9,10",
+                "article": 11,
+                "chunking": "structure"
+              },
+              "score": 0.031778,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a039:000",
+              "text": "Điều 39. Quy định chuyển tiếp\n1. Hoạt động xử lý dữ liệu cá nhân đang thực hiện mà đã được chủ thể dữ liệu cá nhân đồng ý hoặc theo thỏa thuận theo quy định của Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện, không phải xin đồng ý lại hoặc thỏa thuận lại.\n2. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài theo quy định của Nghị định số 13/2023/ NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ đã được cơ quan chuyên trách bảo vệ dữ liệu cá nhân tiếp nhận trước ngày Luật này có hiệu lực thi hành thì tiếp tục được sử dụng và không phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, hồ sơ đánh giá tác động chuyển dữ liệu cá nhân xuyên biên giới theo quy định của Luật này; việc cập nhật các hồ sơ đã lập nêu trên sau ngày Luật này có hiệu lực thi hành thì thực hiện theo quy định của Luật này./.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 25,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "V",
+                "page_end": 25,
+                "pages": "25",
+                "article": 39,
+                "chunking": "structure"
+              },
+              "score": 0.031545,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a009:001",
+              "text": "[Điều 9. Sự đồng ý của chủ thể dữ liệu cá nhân (tiếp)]\nc) Sự đồng ý có hiệu lực cho đến khi chủ thể dữ liệu cá nhân thay đổi sự đồng ý đó hoặc theo quy định của pháp luật;\nd) Sự im lặng hoặc không phản hồi không được coi là sự đồng ý.\n5. Chính phủ quy định chi tiết khoản 3 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 7,
+              "page_end": 7,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 7,
+                "pages": "7",
+                "article": 9,
+                "chunking": "structure"
+              },
+              "score": 0.030579,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a011:000",
+            "luat-91-2025:struct1000:a039:000"
+          ],
+          "context_chars": 2063,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q11",
+          "question": "Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là cơ quan nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a029:000",
+              "text": "Điều 29. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân và Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân\n1. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân là Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao - Bộ Công an, có trách nhiệm giúp Bộ Công an thực hiện quản lý nhà nước về bảo vệ dữ liệu cá nhân.\n2. Cổng thông tin quốc gia về bảo vệ dữ liệu cá nhân:\na) Cung cấp thông tin về chủ trương, đường lối, chính sách của Đảng, pháp luật của Nhà nước về bảo vệ dữ liệu cá nhân;\nb) Tuyên truyền, phổ biến chính sách, pháp luật về bảo vệ dữ liệu cá nhân;\nc) Cập nhật thông tin, tình hình bảo vệ dữ liệu cá nhân;\nd) Tiếp nhận thông tin, hồ sơ, dữ liệu về hoạt động bảo vệ dữ liệu cá nhân qua không gian mạng;\nđ) Cung cấp thông tin về kết quả đánh giá công tác bảo vệ dữ liệu cá nhân của cơ quan, tổ chức, cá nhân có liên quan;\ne) Tiếp nhận thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 24,
+              "page_end": 24,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 24,
+                "pages": "24",
+                "article": 29,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "nd-13-2023:struct1000:a030:000",
+              "text": "Điều 30. Điều kiện bảo đảm hoạt động bảo vệ dữ liệu cá nhân\n1. Lực lượng bảo vệ dữ liệu cá nhân:\na) Lực lượng chuyên trách bảo vệ dữ liệu cá nhân được bố trí tại Cơ quan chuyên trách bảo vệ dữ liệu cá nhân;\nb) Bộ phận, nhân sự có chức năng bảo vệ dữ liệu cá nhân được chỉ định trong cơ quan, tổ chức, doanh nghiệp nhằm bảo đảm thực hiện quy định về bảo vệ dữ liệu cá nhân;\nc) Tổ chức, cá nhân được huy động tham gia bảo vệ dữ liệu cá nhân;\nd) Bộ Công an xây dựng chương trình, kế hoạch cụ thể nhằm phát triển nguồn nhân lực bảo vệ dữ liệu cá nhân.\n2. Cơ quan, tổ chức, cá nhân có trách nhiệm tuyên truyền, phổ biến kiến thức, kỹ năng, nâng cao nhận thức bảo vệ dữ liệu cá nhân cho cơ quan, tổ chức, cá nhân.\n3. Bảo đảm cơ sở vật chất, điều kiện hoạt động cho Cơ quan chuyên trách bảo vệ dữ liệu cá nhân.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 24,
+              "page_end": 25,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 25,
+                "pages": "24,25",
+                "article": 30,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a023:001",
+              "text": "[Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân (tiếp)]\n3. Cơ quan, tổ chức, cá nhân thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong các trường hợp sau đây:\na) Phát hiện hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân;\nb) Dữ liệu cá nhân bị xử lý sai mục đích, không đúng thỏa thuận giữa chủ thể dữ liệu cá nhân với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Không bảo đảm quyền hoặc thực hiện không đúng quyền của chủ thể dữ liệu cá nhân;\nd) Trường hợp khác theo quy định của pháp luật.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân có trách nhiệm tiếp nhận thông báo, xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm ngăn chặn hành vi vi phạm, khắc phục hậu quả xảy ra và phối hợp cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 15,
+              "page_end": 15,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 15,
+                "pages": "15",
+                "article": 23,
+                "chunking": "structure"
+              },
+              "score": 0.031498,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a029:000",
+            "nd-13-2023:struct1000:a030:000"
+          ],
+          "context_chars": 1829,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q12",
+          "question": "Muốn xử lý dữ liệu cá nhân của người đã chết mà người đó không còn vợ, chồng hay con thành niên thì cần sự đồng ý của ai?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a019:000",
+              "text": "Điều 19. Xử lý dữ liệu cá nhân của người bị tuyên bố mất tích, đã chết\n1. Việc xử lý dữ liệu cá nhân liên quan đến dữ liệu cá nhân của người bị tuyên bố mất tích, người đã chết phải được sự đồng ý của vợ, chồng hoặc con thành niên của người đó, trường hợp không có những người này thì phải được sự đồng ý của cha, mẹ của người bị tuyên bố mất tích, người đã chết, trừ trường hợp quy định tại Điều 17 và Điều 18 Nghị định này.\n2. Trường hợp không có tất cả những người được nêu tại khoản 1 Điều này thì được coi là không có sự đồng ý.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 16,
+              "page_end": 16,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 16,
+                "pages": "16",
+                "article": 19,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a019:000",
+              "text": "Điều 19. Xử lý dữ liệu cá nhân trong trường hợp không cần sự đồng ý của chủ thể dữ liệu cá nhân\n1. Các trường hợp xử lý dữ liệu cá nhân không cần sự đồng ý của chủ thể dữ liệu cá nhân bao gồm:\na) Để bảo vệ tính mạng, sức khỏe, danh dự, nhân phẩm, quyền, lợi ích hợp pháp của chủ thể dữ liệu cá nhân hoặc người khác trong trường hợp cấp bách; bảo vệ quyền hoặc lợi ích chính đáng của mình, của người khác hoặc lợi ích của Nhà nước, của cơ quan tổ chức một cách cần thiết trước hành vi xâm phạm lợi ích nói trên. Bên kiểm soát dữ liệu cá nhân, bên xử lý dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba có trách nhiệm chứng minh trường hợp này;\nb) Để giải quyết tình trạng khẩn cấp; nguy cơ đe dọa an ninh quốc gia nhưng chưa đến mức ban bố tình trạng khẩn cấp; phòng, chống bạo loạn, khủng bố, phòng, chống tội phạm và vi phạm pháp luật;\nc) Phục vụ hoạt động của cơ quan nhà nước, hoạt động quản lý nhà nước theo quy định của pháp luật;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 11,
+              "page_end": 12,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 12,
+                "pages": "11,12",
+                "article": 19,
+                "chunking": "structure"
+              },
+              "score": 0.030835,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a024:001",
+              "text": "[Điều 24. Bảo vệ dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi (tiếp)]\na) Người đã đồng ý quy định tại khoản 2 Điều này rút lại sự đồng ý cho phép xử lý dữ liệu cá nhân của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, trừ trường hợp pháp luật có quy định khác;\nb) Theo yêu cầu của cơ quan có thẩm quyền khi có đủ căn cứ chứng minh việc xử lý dữ liệu cá nhân có thể xâm phạm đến quyền, lợi ích hợp pháp của trẻ em, người bị mất hoặc hạn chế năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi, trừ trường hợp pháp luật có quy định khác.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 16,
+              "page_end": 16,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 16,
+                "pages": "16",
+                "article": 24,
+                "chunking": "structure"
+              },
+              "score": 0.03009,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a019:000",
+            "luat-91-2025:struct1000:a019:000",
+            "luat-91-2025:struct1000:a024:001"
+          ],
+          "context_chars": 2388,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q13",
+          "question": "Việc xóa dữ liệu theo yêu cầu của chủ thể dữ liệu phải được thực hiện trong bao lâu?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a014:000",
+              "text": "Điều 14. Xóa, hủy, khử nhận dạng dữ liệu cá nhân\n1. Việc xóa, hủy dữ liệu cá nhân được thực hiện trong các trường hợp sau đây:\na) Chủ thể dữ liệu cá nhân có yêu cầu và chấp nhận các rủi ro, thiệt hại có thể xảy ra đối với mình. Yêu cầu của chủ thể dữ liệu cá nhân trong trường hợp này phải tuân thủ đầy đủ các nguyên tắc quy định tại khoản 3 Điều 4 của Luật này;\nb) Đã hoàn thành mục đích xử lý dữ liệu cá nhân;\nc) Hết thời hạn lưu trữ theo quy định của pháp luật;\nd) Thực hiện theo quyết định của cơ quan nhà nước có thẩm quyền;\nđ) Thực hiện theo thỏa thuận;\ne) Trường hợp khác theo quy định của pháp luật.\n2. Không thực hiện yêu cầu của chủ thể dữ liệu cá nhân về việc xóa, hủy dữ liệu cá nhân trong các trường hợp quy định tại Điều 19 của Luật này hoặc việc xóa, hủy dữ liệu cá nhân vi phạm quy định tại khoản 3 Điều 4 của Luật này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 8,
+              "page_end": 9,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 9,
+                "pages": "8,9",
+                "article": 14,
+                "chunking": "structure"
+              },
+              "score": 0.032266,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a016:000",
+              "text": "Điều 16. Lưu trữ, xóa, hủy dữ liệu cá nhân\n1. Chủ thể dữ liệu được yêu cầu Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân xóa dữ liệu cá nhân của mình trong các trường hợp sau:\na) Nhận thấy không còn cần thiết cho mục đích thu thập đã đồng ý và chấp nhận các thiệt hại có thể xảy ra khi yêu cầu xóa dữ liệu;\nb) Rút lại sự đồng ý;\nc) Phản đối việc xử lý dữ liệu và Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân không có lý do chính đáng để tiếp tục xử lý;\nd) Dữ liệu cá nhân được xử lý không đúng với mục đích đã đồng ý hoặc việc xử lý dữ liệu cá nhân là vi phạm quy định của pháp luật;\nđ) Dữ liệu cá nhân phải xóa theo quy định của pháp luật.\n2. Việc xóa dữ liệu sẽ không áp dụng khi có đề nghị của chủ thể dữ liệu trong các trường hợp:\na) Pháp luật quy định không cho phép xóa dữ liệu;\nb) Dữ liệu cá nhân được xử lý bởi cơ quan nhà nước có thẩm quyền với mục đích phục vụ hoạt động của cơ quan nhà nước theo quy định của pháp luật;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 16,
+                "chunking": "structure"
+              },
+              "score": 0.031498,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a014:001",
+              "text": "[Điều 14. Xóa, hủy, khử nhận dạng dữ liệu cá nhân (tiếp)]\n3. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân xóa, hủy dữ liệu cá nhân trong các trường hợp quy định tại khoản 1 Điều này hoặc yêu cầu bên xử lý dữ liệu cá nhân, bên thứ ba xóa, hủy dữ liệu cá nhân của chủ thể dữ liệu cá nhân. Việc xóa, hủy dữ liệu cá nhân phải được thực hiện bằng các biện pháp an toàn; ngăn chặn hoạt động xâm nhập và khôi phục trái phép dữ liệu cá nhân đã bị xóa, hủy.\n4. Cơ quan, tổ chức, cá nhân không được cố ý khôi phục trái phép dữ liệu cá nhân đã bị xóa, hủy.\n5. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân có trách nhiệm tuân thủ quy định của Luật này. Trường hợp không thể xóa, hủy dữ liệu cá nhân vì lý do chính đáng sau khi nhận được yêu cầu của chủ thể dữ liệu cá nhân, bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải thông báo để chủ thể dữ liệu cá nhân biết.\n6. Việc khử nhận dạng dữ liệu cá nhân được quy định như sau:",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 9,
+              "page_end": 9,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 9,
+                "pages": "9",
+                "article": 14,
+                "chunking": "structure"
+              },
+              "score": 0.030835,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a014:000",
+            "nd-13-2023:struct1000:a016:000"
+          ],
+          "context_chars": 1938,
+          "hit1": false,
+          "hit3": false,
+          "context_hit": false
+        },
+        {
+          "query_id": "q17",
+          "question": "Khi phát hiện vi phạm quy định bảo vệ dữ liệu cá nhân thì phải thông báo cho ai và trong thời hạn nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a023:000",
+              "text": "Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba phát hiện vi phạm quy định về bảo vệ dữ liệu cá nhân có thể gây tổn hại đến quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội hoặc xâm phạm đến tính mạng, sức khỏe, danh dự, nhân phẩm, tài sản của chủ thể dữ liệu cá nhân thì phải thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân chậm nhất là 72 giờ kể từ khi phát hiện hành vi vi phạm. Trường hợp bên xử lý dữ liệu cá nhân phát hiện hành vi vi phạm phải thông báo kịp thời cho bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân.\n2. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân phải lập biên bản xác nhận về việc xảy ra hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân, phối hợp với cơ quan chuyên trách bảo vệ dữ liệu cá nhân xử lý hành vi vi phạm.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 15,
+              "page_end": 15,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 15,
+                "pages": "15",
+                "article": 23,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a023:000",
+              "text": "Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\n1. Trường hợp phát hiện xảy ra vi phạm quy định bảo vệ dữ liệu cá nhân, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân thông báo cho Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) chậm nhất 72 giờ sau khi xảy ra hành vi vi phạm theo Mẫu số 03 tại Phụ lục của Nghị định này. Trường hợp thông báo sau 72 giờ thì phải kèm theo lý do thông báo chậm, muộn.\n2. Bên Xử lý dữ liệu cá nhân phải thông báo cho Bên Kiểm soát dữ liệu cá nhân một cách nhanh nhất có thể sau khi nhận thấy có sự vi phạm quy định về bảo vệ dữ liệu cá nhân.\n3. Nội dung thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân:\na) Mô tả tính chất của việc vi phạm quy định bảo vệ dữ liệu cá nhân, bao gồm:\nthời gian, địa điểm, hành vi, tổ chức, cá nhân, các loại dữ liệu cá nhân và số lượng dữ liệu liên quan;",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 18,
+              "page_end": 18,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 18,
+                "pages": "18",
+                "article": 23,
+                "chunking": "structure"
+              },
+              "score": 0.032258,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a023:001",
+              "text": "[Điều 23. Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân (tiếp)]\n3. Cơ quan, tổ chức, cá nhân thông báo cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong các trường hợp sau đây:\na) Phát hiện hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân;\nb) Dữ liệu cá nhân bị xử lý sai mục đích, không đúng thỏa thuận giữa chủ thể dữ liệu cá nhân với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Không bảo đảm quyền hoặc thực hiện không đúng quyền của chủ thể dữ liệu cá nhân;\nd) Trường hợp khác theo quy định của pháp luật.\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân có trách nhiệm tiếp nhận thông báo, xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên thứ ba và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm ngăn chặn hành vi vi phạm, khắc phục hậu quả xảy ra và phối hợp cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong xử lý hành vi vi phạm quy định về bảo vệ dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 15,
+              "page_end": 15,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 15,
+                "pages": "15",
+                "article": 23,
+                "chunking": "structure"
+              },
+              "score": 0.031258,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a023:000",
+            "nd-13-2023:struct1000:a023:000"
+          ],
+          "context_chars": 1921,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q18",
+          "question": "Sự đồng ý của chủ thể dữ liệu có thể được thể hiện bằng những hình thức nào?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:a011:001",
+              "text": "[Điều 11. Sự đồng ý của chủ thể dữ liệu (tiếp)]\n5. Sự đồng ý của chủ thể dữ liệu phải được thể hiện ở một định dạng có thể được in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n6. Sự im lặng hoặc không phản hồi của chủ thể dữ liệu không được coi là sự đồng ý.\n7. Chủ thể dữ liệu có thể đồng ý một phần hoặc với điều kiện kèm theo.\n8. Đối với xử lý dữ liệu cá nhân nhạy cảm, chủ thể dữ liệu phải được thông báo rằng dữ liệu cần xử lý là dữ liệu cá nhân nhạy cảm.\n9. Sự đồng ý của chủ thể dữ liệu có hiệu lực cho tới khi chủ thể dữ liệu có quyết định khác hoặc khi cơ quan nhà nước có thẩm quyền yêu cầu bằng văn bản.\n10. Trong trường hợp có tranh chấp, trách nhiệm chứng minh sự đồng ý của chủ thể dữ liệu thuộc về Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 10,
+              "page_end": 10,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 10,
+                "pages": "10",
+                "article": 11,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "luat-91-2025:struct1000:a009:000",
+              "text": "Chương II – BẢO VỆ DỮ LIỆU CÁ NHÂN – Mục 1 – BẢO VỆ DỮ LIỆU CÁ NHÂN – TRONG QUÁ TRÌNH XỬ LÝ DỮ LIỆU CÁ NHÂN\nĐiều 9. Sự đồng ý của chủ thể dữ liệu cá nhân\n1. Sự đồng ý của chủ thể dữ liệu cá nhân là việc chủ thể dữ liệu cá nhân cho phép xử lý dữ liệu cá nhân của mình, trừ trường hợp pháp luật có quy định khác.\n2. Sự đồng ý của chủ thể dữ liệu cá nhân chỉ có hiệu lực khi dựa trên sự tự nguyện và biết rõ các thông tin sau đây:\na) Loại dữ liệu cá nhân được xử lý, mục đích xử lý dữ liệu cá nhân;\nb) Bên kiểm soát dữ liệu cá nhân hoặc bên kiểm soát và xử lý dữ liệu cá nhân;\nc) Các quyền, nghĩa vụ của chủ thể dữ liệu cá nhân.\n3. Sự đồng ý của chủ thể dữ liệu cá nhân được thể hiện bằng phương thức rõ ràng, cụ thể, có thể in, sao chép bằng văn bản, bao gồm cả dưới dạng điện tử hoặc định dạng kiểm chứng được.\n4. Sự đồng ý của chủ thể dữ liệu cá nhân phải bảo đảm các nguyên tắc sau đây:\na) Thể hiện sự đồng ý đối với từng mục đích;\nb) Không được kèm theo điều kiện bắt buộc phải đồng ý với các mục đích khác với nội dung thỏa thuận;",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 6,
+              "page_end": 7,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 7,
+                "pages": "6,7",
+                "article": 9,
+                "chunking": "structure"
+              },
+              "score": 0.032266,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a011:000",
+              "text": "Mục 2 – BẢO VỆ DỮ LIỆU CÁ NHÂN – TRONG QUÁ TRÌNH XỬ LÝ DỮ LIỆU CÁ NHÂN\nĐiều 11. Sự đồng ý của chủ thể dữ liệu\n1. Sự đồng ý của chủ thể dữ liệu được áp dụng đối với tất cả các hoạt động trong quy trình xử lý dữ liệu cá nhân, trừ trường hợp luật có quy định khác.\n2. Sự đồng ý của chủ thể dữ liệu chỉ có hiệu lực khi chủ thể dữ liệu tự nguyện và biết rõ các nội dung sau:\na) Loại dữ liệu cá nhân được xử lý;\nb) Mục đích xử lý dữ liệu cá nhân;\nc) Tổ chức, cá nhân được xử lý dữ liệu cá nhân;\nd) Các quyền, nghĩa vụ của chủ thể dữ liệu.\n3. Sự đồng ý của chủ thể dữ liệu phải được thể hiện rõ ràng, cụ thể bằng văn bản, giọng nói, đánh dấu vào ô đồng ý, cú pháp đồng ý qua tin nhắn, chọn các thiết lập kỹ thuật đồng ý hoặc qua một hành động khác thể hiện được điều này.\n4. Sự đồng ý phải được tiến hành cho cùng một mục đích. Khi có nhiều mục đích, Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân liệt kê các mục đích để chủ thể dữ liệu đồng ý với một hoặc nhiều mục đích nêu ra.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 9,
+              "page_end": 10,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 10,
+                "pages": "9,10",
+                "article": 11,
+                "chunking": "structure"
+              },
+              "score": 0.031754,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": true
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:a011:001",
+            "luat-91-2025:struct1000:a009:000"
+          ],
+          "context_chars": 1980,
+          "hit1": false,
+          "hit3": true,
+          "context_hit": false
+        },
+        {
+          "query_id": "q19",
+          "question": "Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải được gửi cho cơ quan chuyên trách trong thời hạn bao lâu?",
+          "filter": null,
+          "results": [
+            {
+              "id": "luat-91-2025:struct1000:a021:000",
+              "text": "Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân\n1. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân lập, lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân và gửi 01 bản chính cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân trong thời gian 60 ngày kể từ ngày đầu tiên xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.\n2. Đánh giá tác động xử lý dữ liệu cá nhân được thực hiện 01 lần cho suốt thời gian hoạt động của bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân và được cập nhật theo quy định tại Điều 22 của Luật này.\n3. Bên xử lý dữ liệu cá nhân lập và lưu trữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân theo thỏa thuận với bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, trừ trường hợp quy định tại khoản 6 Điều này.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 13,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "13,14",
+                "article": 21,
+                "chunking": "structure"
+              },
+              "score": 0.032522,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "luat-91-2025:struct1000:a021:001",
+              "text": "[Điều 21. Đánh giá tác động xử lý dữ liệu cá nhân (tiếp)]\n4. Cơ quan chuyên trách bảo vệ dữ liệu cá nhân đánh giá, yêu cầu bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân hoàn thiện hồ sơ đánh giá tác động xử lý dữ liệu cá nhân trong trường hợp hồ sơ chưa đầy đủ và đúng quy định.\n5. Bên kiểm soát dữ liệu cá nhân, bên kiểm soát và xử lý dữ liệu cá nhân, bên xử lý dữ liệu cá nhân cập nhật, bổ sung hồ sơ đánh giá tác động xử lý dữ liệu cá nhân khi có sự thay đổi về nội dung hồ sơ đã gửi cho cơ quan chuyên trách bảo vệ dữ liệu cá nhân.\n6. Cơ quan nhà nước có thẩm quyền không phải thực hiện quy định về đánh giá tác động xử lý dữ liệu cá nhân quy định tại Điều này.\n7. Chính phủ quy định thành phần hồ sơ, điều kiện, trình tự, thủ tục đánh giá tác động xử lý dữ liệu cá nhân.",
+              "source_id": "luat-91-2025",
+              "source": "data/raw/luat-91-2025-qh15.pdf",
+              "page": 14,
+              "page_end": 14,
+              "metadata": {
+                "document_type": "luat",
+                "year": 2025,
+                "doc_number": "91/2025/QH15",
+                "title": "Luật Bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 14,
+                "pages": "14",
+                "article": 21,
+                "chunking": "structure"
+              },
+              "score": 0.032266,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:a024:002",
+              "text": "[Điều 24. Đánh giá tác động xử lý dữ liệu cá nhân (tiếp)]\ne) Mô tả chung về các biện pháp bảo vệ dữ liệu cá nhân được áp dụng;\ng) Hậu quả, thiệt hại không mong muốn có khả năng xảy ra, các biện pháp giảm thiểu hoặc loại bỏ nguy cơ, tác hại đó.\n3. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân quy định tại khoản 1 và khoản 2 Điều này được xác lập bằng văn bản có giá trị pháp lý của Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân hoặc Bên Xử lý dữ liệu cá nhân.\n4. Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân phải luôn có sẵn để phục vụ hoạt động kiểm tra, đánh giá của Bộ Công an và gửi Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao) 01 bản chính theo Mẫu số 04 tại Phụ lục của Nghị định này trong thời gian 60 ngày kể từ ngày tiến hành xử lý dữ liệu cá nhân.",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 20,
+              "page_end": 20,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "noi_dung",
+                "chapter": "II",
+                "page_end": 20,
+                "pages": "20",
+                "article": 24,
+                "chunking": "structure"
+              },
+              "score": 0.031054,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "luat-91-2025:struct1000:a021:000",
+            "luat-91-2025:struct1000:a021:001"
+          ],
+          "context_chars": 1769,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        },
+        {
+          "query_id": "q20",
+          "question": "Mẫu số 03 dùng cho việc gì?",
+          "filter": null,
+          "results": [
+            {
+              "id": "nd-13-2023:struct1000:p030:000",
+              "text": "Phụ lục (Kèm theo Nghị định số 13/2023/NĐ-CP ngày 17 tháng 4 năm 2023 của Chính phủ)\nMẫu số 01 Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho cá nhân)\nMẫu số 02 Phiếu yêu cầu cung cấp dữ liệu cá nhân (dành cho tổ chức, doanh nghiệp)\nMẫu số 03 Thông báo vi phạm quy định về bảo vệ dữ liệu cá nhân\nMẫu số 04 Thông báo gửi hồ sơ đánh giá tác động xử lý dữ liệu cá nhân\nMẫu số 05 Thông báo thay đổi nội dung hồ sơ\nMẫu số 06 Hồ sơ đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 30,
+              "page_end": 30,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "phu_luc",
+                "chapter": "phu_luc",
+                "page_end": 30,
+                "pages": "30",
+                "article": 0,
+                "chunking": "structure"
+              },
+              "score": 0.032787,
+              "rank": 1,
+              "method": "hybrid_rrf",
+              "hit": true
+            },
+            {
+              "id": "nd-13-2023:struct1000:p033:000",
+              "text": "Mẫu số 03 TÊN TỔ CHỨC Số:\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc ....., ngày... tháng... năm...\nTHÔNG BÁO\nVI PHẠM QUY ĐỊNH BẢO VỆ DỮ LIỆU CÁ NHÂN\nKính gửi: Bộ Công an (Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an) Thực hiện quy định về bảo vệ dữ liệu cá nhân,..................1 10 gửi Bộ Công an hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, như sau:\n1. Thông tin về tổ chức, doanh nghiệp\n- Tên tổ chức, doanh nghiệp:................................................................................\n- Địa chỉ trụ sở chính:...........................................................................................\n- Địa chỉ trụ sở giao dịch:.....................................................................................\n- Quyết định thành lập/Giấy chứng nhận đăng ký doanh nghiệp/Giấy chứng nhận đăng ký kinh doanh/Giấy chứng nhận đầu tư số:..... do.... cấp ngày... tháng...\nnăm... tại...",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 33,
+              "page_end": 33,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "phu_luc",
+                "chapter": "phu_luc",
+                "page_end": 33,
+                "pages": "33",
+                "article": 0,
+                "chunking": "structure"
+              },
+              "score": 0.031498,
+              "rank": 2,
+              "method": "hybrid_rrf",
+              "hit": false
+            },
+            {
+              "id": "nd-13-2023:struct1000:p032:000",
+              "text": "Mẫu số 02 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc .........., ngày...... tháng...... năm......\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n(Dành cho tổ chức, doanh nghiệp)\nKính gửi:...............................................\n1. Tên tổ chức, doanh nghiệp:...............................................................................\n..............................................................................................................................\n2. Người đại diện của tổ chức, doanh nghiệp1:6:............................ ........................\n3. Số CMTND/Thẻ căn cước công dân/Hộ chiếu.................................................\ncấp ngày...../....../........ tại............................................................................................\n4. Địa chỉ trụ sở của tổ chức, doanh nghiệp:.................. ......................................",
+              "source_id": "nd-13-2023",
+              "source": "data/raw/nghi-dinh-13-2023-nd-cp.pdf",
+              "page": 32,
+              "page_end": 32,
+              "metadata": {
+                "document_type": "nghi_dinh",
+                "year": 2023,
+                "doc_number": "13/2023/NĐ-CP",
+                "title": "Nghị định về bảo vệ dữ liệu cá nhân",
+                "section": "phu_luc",
+                "chapter": "phu_luc",
+                "page_end": 32,
+                "pages": "32",
+                "article": 0,
+                "chunking": "structure"
+              },
+              "score": 0.031258,
+              "rank": 3,
+              "method": "hybrid_rrf",
+              "hit": false
+            }
+          ],
+          "context_ids": [
+            "nd-13-2023:struct1000:p030:000",
+            "nd-13-2023:struct1000:p033:000"
+          ],
+          "context_chars": 1555,
+          "hit1": true,
+          "hit3": true,
+          "context_hit": true
+        }
+      ]
+    }
+  }
+}
